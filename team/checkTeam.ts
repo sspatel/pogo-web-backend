@@ -82,7 +82,7 @@ export function isTeamValid(team: TeamMember[], format: Rule, strings: any): {is
         if (format.flags.speciesClauseByDex && selectedSpecies.some(species => species.dex === speciesData.dex)) {
           violations.push(strings.team_verify_clause_by_dex.replace('%1', index));
         }
-        if (format.flags.speciesClauseByForm && selectedSpecies.some(species => species.speciesId.replace("_shadow", "") === speciesData.speciesId.replace("_shadow", ""))) {
+        if (format.flags.speciesClauseByForm && selectedSpecies.some(species => species.speciesId.replace(/_(?!alolan|hisuian|galarian|rainy|snowy|sunny)\w+/, "") === speciesData.speciesId.replace(/_(?!alolan|hisuian|galarian|rainy|snowy|sunny)\w+/, ""))) {
           violations.push(strings.team_verify_clause_by_dex.replace('%1', index));
         }
         if (format.flags.typeClause && selectedSpecies.some(species => isThereADuplicateType(species, speciesData))) {

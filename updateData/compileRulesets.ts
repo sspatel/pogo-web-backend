@@ -60,6 +60,7 @@ function isRuleValid (rule: Rule) : string[] {
 }
 
 for (let ruleName of Object.keys(rules)) {
+    console.log("For loop iter "+ruleName);
     let rule: Rule = rules[ruleName];
 
     // Validate rule
@@ -73,6 +74,7 @@ for (let ruleName of Object.keys(rules)) {
     }
 
     const callback = () => {
+        console.log("callback "+ruleName)
         // Do we have a team pattern? Then make 6 files, one for each team position
         if(rule.teamPattern) {
             for (let position in rule.teamPattern) {
@@ -121,7 +123,6 @@ for (let ruleName of Object.keys(rules)) {
                         isValid: legal
                     } = isSpeciesAllowed({speciesId}, rule, 0);
                     legal = legal && doesClassDescribePokemon(speciesId, classObj)
-
                     let pvpokeRanking = pvpokeData.find(ranking => ranking.speciesId === speciesId);
                     let price = rule.pointLimitOptions?.prices.find((priceSetting: PriceSetting) => {
                         return priceSetting.pokemonIds.includes(speciesId)
@@ -156,7 +157,8 @@ for (let ruleName of Object.keys(rules)) {
                 let {
                     isValid: legal
                 } = isSpeciesAllowed({speciesId}, rule, 0);
-
+                console.log(isSpeciesAllowed({speciesId}, rule, 0))
+                console.log(legal + " " + speciesId)
                 let pvpokeRanking = pvpokeData.find(ranking => ranking.speciesId === speciesId);
                 let price = rule.pointLimitOptions?.prices.find((priceSetting: PriceSetting) => {
                     return priceSetting.pokemonIds.includes(speciesId)
@@ -219,5 +221,5 @@ for (let ruleName of Object.keys(rules)) {
         callback();
     }
 
-    //callback()
+    callback()
 }
