@@ -1,6 +1,7 @@
 {
     "Great League": {
         "name": "Great League",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/great_league.png/public",
         "maxCP": 1500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -12,6 +13,7 @@
     },
     "Ultra League": {
         "name": "Ultra League",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/ultra_league.png/public",
         "maxCP": 2500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -23,6 +25,7 @@
     },
     "PC_ULTRA_LEAGUE": {
         "name": "PC_ULTRA_LEAGUE",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/ultra_league.png/public",
         "maxCP": 2500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -43,6 +46,7 @@
     },
     "Master League": {
         "name": "Master League",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/master_league.png/public",
         "maxCP": 10000,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -54,6 +58,7 @@
     },
     "PC_MASTER_LEAGUE": {
         "name": "PC_MASTER_LEAGUE",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/master_league.png/public",
         "maxCP": 10000,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -74,6 +79,7 @@
     },
     "OPEN_MASTER_LEAGUE_CLASSIC": {
         "name": "OPEN_MASTER_LEAGUE_CLASSIC",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/master_league.png/public",
         "maxCP": 10000,
         "maxLevel": 40,
         "maxBestBuddy": 1,
@@ -85,6 +91,7 @@
     },
     "PC_MASTER_LEAGUE_CLASSIC": {
         "name": "PC_MASTER_LEAGUE_CLASSIC",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/master_league.png/public",
         "maxCP": 10000,
         "maxLevel": 40,
         "maxBestBuddy": 1,
@@ -105,6 +112,7 @@
     },
     "Arcana Cup": {
         "name": "Arcana Cup",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/arcana-cup.svg/public",
         "maxCP": 1500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -392,6 +400,7 @@
     },
     "Catacomb Cup": {
         "name": "Catacomb Cup",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/catacomb-cup.svg/public",
         "maxCP": 1500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -595,6 +604,7 @@
     },
     "Polkadot Cup": {
         "name": "Polkadot Cup",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/polkadot-cup.svg/public",
         "maxCP": 1500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -713,6 +723,7 @@
     },
     "Justicar Cup": {
         "name": "Justicar Cup",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/justicar-cup.png/public",
         "maxCP": 2500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -995,6 +1006,7 @@
     },
     "Master League Factions": {
         "name": "Master League Factions",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/master_league.png/public",
         "maxCP": 10000,
         "maxLevel": 50,
         "maxBestBuddy": 1,
@@ -1095,6 +1107,7 @@
     },
     "Great League Factions": {
         "name": "Great League Factions",
+        "metaLogo":"https://imagedelivery.net/2qzpDFW7Yl3NqBaOSqtWxQ/great_league.png/public",
         "maxCP": 1500,
         "maxLevel": 50,
         "maxBestBuddy": 1,
