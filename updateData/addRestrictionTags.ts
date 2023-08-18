@@ -10,7 +10,7 @@ const replaceMap = {
     "_shadow": "",
     "_alolan": "_alola",
     "_galarian": "_galar",
-    "_hisuian": "",
+    "_hisuian": "_hisui",
     "_female": "_f",
     "indeedee_male": "indeedee",
     "_male": "_m",

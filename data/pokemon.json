@@ -4786,7 +4786,7 @@
         "arcanine_hisuian"
       ]
     },
-    "sid": 1856,
+    "sid": 1857,
     "gender": "male"
   },
   "growlithe_shadow": {
@@ -4896,7 +4896,7 @@
       "id": "FAMILY_GROWLITHE",
       "parent": "growlithe_hisuian"
     },
-    "sid": 1888,
+    "sid": 1889,
     "gender": "male"
   },
   "arcanine_shadow": {
@@ -8167,7 +8167,7 @@
         "electrode_hisuian"
       ]
     },
-    "sid": 3200,
+    "sid": 3201,
     "gender": "N"
   },
   "voltorb_shadow": {
@@ -8278,7 +8278,7 @@
       "id": "FAMILY_VOLTORB",
       "parent": "voltorb_hisuian"
     },
-    "sid": 3232,
+    "sid": 3233,
     "gender": "N"
   },
   "electrode_shadow": {
@@ -15440,7 +15440,7 @@
     "nicknames": [
       "hqwil"
     ],
-    "sid": 6752,
+    "sid": 6753,
     "gender": "male"
   },
   "scizor": {
@@ -15696,7 +15696,7 @@
         "sneasler"
       ]
     },
-    "sid": 6880,
+    "sid": 6881,
     "gender": "male"
   },
   "sneasel_shadow": {
@@ -36875,7 +36875,7 @@
       "id": "FAMILY_RUFFLET",
       "parent": "rufflet"
     },
-    "sid": 20096,
+    "sid": 20097,
     "gender": "M"
   },
   "vullaby": {
@@ -40183,7 +40183,7 @@
       "id": "FAMILY_BERGMITE",
       "parent": "bergmite"
     },
-    "sid": 22816,
+    "sid": 22817,
     "gender": "male"
   },
   "noibat": {
