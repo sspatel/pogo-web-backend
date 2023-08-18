@@ -3467,7 +3467,8 @@
       "electric"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "speciesName": "Geodude (Alolan)"
   },
@@ -3482,6 +3483,19 @@
       "shadow"
     ],
     "speciesName": "Geodude (Shadow)"
+  },
+  "geodude_alolan_shadow": {
+    "legal": true,
+    "dex": 74,
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "speciesName": "Geodude (Alolan) (Shadow)"
   },
   "graveler": {
     "legal": true,
@@ -3503,7 +3517,8 @@
       "electric"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "speciesName": "Graveler (Alolan)"
   },
@@ -3518,6 +3533,19 @@
       "shadow"
     ],
     "speciesName": "Graveler (Shadow)"
+  },
+  "graveler_alolan_shadow": {
+    "legal": true,
+    "dex": 75,
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "speciesName": "Graveler (Alolan) (Shadow)"
   },
   "golem": {
     "legal": true,
@@ -3583,7 +3611,8 @@
       "electric"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "speciesName": "Golem (Alolan)",
     "ranking": 547,
@@ -3674,6 +3703,19 @@
       "EARTHQUAKE",
       "STONE_EDGE"
     ]
+  },
+  "golem_alolan_shadow": {
+    "legal": true,
+    "dex": 76,
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "speciesName": "Golem (Alolan) (Shadow)"
   },
   "ponyta": {
     "legal": true,
@@ -7897,7 +7939,22 @@
       "bug",
       "flying"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Ledyba"
+  },
+  "ledyba_shadow": {
+    "legal": true,
+    "dex": 165,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Ledyba (Shadow)"
   },
   "ledian": {
     "legal": true,
@@ -7906,7 +7963,22 @@
       "bug",
       "flying"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Ledian"
+  },
+  "ledian_shadow": {
+    "legal": true,
+    "dex": 166,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Ledian (Shadow)"
   },
   "spinarak": {
     "legal": true,
@@ -10761,7 +10833,22 @@
       "fighting",
       "none"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Hitmontop"
+  },
+  "hitmontop_shadow": {
+    "legal": true,
+    "dex": 237,
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Hitmontop (Shadow)"
   },
   "smoochum": {
     "legal": true,
@@ -11107,6 +11194,19 @@
       "CRUNCH",
       "STONE_EDGE"
     ]
+  },
+  "tyranitar_mega": {
+    "legal": true,
+    "dex": 248,
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "tags": [
+      "shadoweligible",
+      "mega"
+    ],
+    "speciesName": "Tyranitar (Mega)"
   },
   "lugia": {
     "legal": false,
@@ -12558,6 +12658,19 @@
     ],
     "speciesName": "Sableye"
   },
+  "sableye_mega": {
+    "legal": true,
+    "dex": 302,
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "tags": [
+      "shadoweligible",
+      "mega"
+    ],
+    "speciesName": "Sableye (Mega)"
+  },
   "sableye_shadow": {
     "legal": true,
     "dex": 302,
@@ -12981,7 +13094,8 @@
     ],
     "tags": [
       "shadoweligible",
-      "shadow"
+      "shadow",
+      "include1500"
     ],
     "speciesName": "Sharpedo (Shadow)"
   },
@@ -14700,7 +14814,20 @@
       "none"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "shadoweligible"
+    ]
+  },
+  "regirock_shadow": {
+    "legal": false,
+    "dex": 377,
+    "types": [
+      "rock",
+      "none"
+    ],
+    "tags": [
+      "legendary",
+      "shadow"
     ]
   },
   "regice": {
@@ -14880,6 +15007,19 @@
     ],
     "tags": [
       "legendary"
+    ]
+  },
+  "rayquaza_mega": {
+    "legal": false,
+    "dex": 384,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "tags": [
+      "legendary",
+      "mega",
+      "unreleased"
     ]
   },
   "jirachi": {
@@ -16412,7 +16552,22 @@
       "normal",
       "none"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Glameow"
+  },
+  "glameow_shadow": {
+    "legal": true,
+    "dex": 431,
+    "types": [
+      "normal",
+      "none"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Glameow (Shadow)"
   },
   "purugly": {
     "legal": true,
@@ -16421,7 +16576,22 @@
       "normal",
       "none"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Purugly"
+  },
+  "purugly_shadow": {
+    "legal": true,
+    "dex": 432,
+    "types": [
+      "normal",
+      "none"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Purugly (Shadow)"
   },
   "chingling": {
     "legal": true,
@@ -16669,7 +16839,22 @@
       "dragon",
       "ground"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Gible"
+  },
+  "gible_shadow": {
+    "legal": true,
+    "dex": 443,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Gible (Shadow)"
   },
   "gabite": {
     "legal": true,
@@ -16678,7 +16863,22 @@
       "dragon",
       "ground"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Gabite"
+  },
+  "gabite_shadow": {
+    "legal": true,
+    "dex": 444,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Gabite (Shadow)"
   },
   "garchomp": {
     "legal": true,
@@ -16686,6 +16886,9 @@
     "types": [
       "dragon",
       "ground"
+    ],
+    "tags": [
+      "shadoweligible"
     ],
     "speciesName": "Garchomp",
     "ranking": 728,
@@ -16728,6 +16931,18 @@
       "EARTH_POWER",
       "OUTRAGE"
     ]
+  },
+  "garchomp_shadow": {
+    "legal": true,
+    "dex": 445,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Garchomp (Shadow)"
   },
   "munchlax": {
     "legal": true,
@@ -19000,9 +19215,6 @@
       "electric",
       "ice"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "speciesName": "Rotom (Frost)"
   },
   "rotom_heat": {
@@ -20384,6 +20596,9 @@
       "fighting",
       "none"
     ],
+    "tags": [
+      "shadoweligible"
+    ],
     "speciesName": "Throh",
     "ranking": 349,
     "moves": {
@@ -20418,12 +20633,27 @@
       "FOCUS_BLAST"
     ]
   },
+  "throh_shadow": {
+    "legal": true,
+    "dex": 538,
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Throh (Shadow)"
+  },
   "sawk": {
     "legal": true,
     "dex": 539,
     "types": [
       "fighting",
       "none"
+    ],
+    "tags": [
+      "shadoweligible"
     ],
     "speciesName": "Sawk",
     "ranking": 476,
@@ -20458,6 +20688,18 @@
       "BODY_SLAM",
       "FOCUS_BLAST"
     ]
+  },
+  "sawk_shadow": {
+    "legal": true,
+    "dex": 539,
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "tags": [
+      "shadow"
+    ],
+    "speciesName": "Sawk (Shadow)"
   },
   "sewaddle": {
     "legal": true,
@@ -24487,9 +24729,6 @@
       "rock",
       "fairy"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "speciesName": "Carbink"
   },
   "goomy": {
@@ -25009,6 +25248,17 @@
       "legendary"
     ]
   },
+  "zygarde_10": {
+    "legal": false,
+    "dex": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "tags": [
+      "legendary"
+    ]
+  },
   "zygarde": {
     "legal": false,
     "dex": 718,
@@ -25017,21 +25267,31 @@
       "ground"
     ],
     "tags": [
-      "legendary",
-      "unreleased"
+      "legendary"
+    ]
+  },
+  "zygarde_complete": {
+    "legal": false,
+    "dex": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "tags": [
+      "legendary"
     ]
   },
   "diancie": {
-    "legal": true,
+    "legal": false,
     "dex": 719,
     "types": [
       "rock",
       "fairy"
     ],
     "tags": [
-      "unreleased"
-    ],
-    "speciesName": "Diancie"
+      "mythical",
+      "untradeable"
+    ]
   },
   "hoopa": {
     "legal": false,
@@ -25916,9 +26176,6 @@
       "fighting",
       "none"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "speciesName": "Passimian"
   },
   "wimpod": {
@@ -25986,9 +26243,6 @@
       "ghost",
       "ground"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "speciesName": "Sandygast"
   },
   "palossand": {
@@ -25997,9 +26251,6 @@
     "types": [
       "ghost",
       "ground"
-    ],
-    "tags": [
-      "unreleased"
     ],
     "speciesName": "Palossand"
   },
@@ -26274,9 +26525,6 @@
       "normal",
       "none"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "speciesName": "Komala"
   },
   "turtonator": {
@@ -26285,9 +26533,6 @@
     "types": [
       "fire",
       "dragon"
-    ],
-    "tags": [
-      "unreleased"
     ],
     "speciesName": "Turtonator"
   },
@@ -26502,7 +26747,8 @@
       "poison"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ]
   },
   "buzzwole": {
@@ -26513,7 +26759,8 @@
       "fighting"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ]
   },
   "pheromosa": {
@@ -26524,7 +26771,8 @@
       "fighting"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ]
   },
   "xurkitree": {
@@ -26535,7 +26783,8 @@
       "none"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ]
   },
   "celesteela": {
@@ -26546,7 +26795,8 @@
       "flying"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ]
   },
   "kartana": {
@@ -26558,6 +26808,7 @@
     ],
     "tags": [
       "legendary",
+      "ultrabeast",
       "include1500"
     ]
   },
@@ -26569,56 +26820,61 @@
       "dragon"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ]
   },
   "necrozma": {
-    "legal": true,
+    "legal": false,
     "dex": 800,
     "types": [
       "psychic",
       "none"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Necrozma"
+    ]
   },
   "necrozma_dawn_wings": {
-    "legal": true,
+    "legal": false,
     "dex": 800,
     "types": [
       "psychic",
       "ghost"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Necrozma (Dawn Wings)"
+    ]
   },
   "necrozma_dusk_mane": {
-    "legal": true,
+    "legal": false,
     "dex": 800,
     "types": [
       "psychic",
       "steel"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Necrozma (Dusk Mane)"
+    ]
   },
   "necrozma_ultra": {
-    "legal": true,
+    "legal": false,
     "dex": 800,
     "types": [
       "psychic",
       "dragon"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Necrozma (Ultra)"
+    ]
   },
   "magearna": {
     "legal": true,
@@ -26633,52 +26889,56 @@
     "speciesName": "Magearna"
   },
   "poipole": {
-    "legal": true,
+    "legal": false,
     "dex": 803,
     "types": [
       "poison",
       "none"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Poipole"
+    ]
   },
   "naganadel": {
-    "legal": true,
+    "legal": false,
     "dex": 804,
     "types": [
       "poison",
       "dragon"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Naganadel"
+    ]
   },
   "stakataka": {
-    "legal": true,
+    "legal": false,
     "dex": 805,
     "types": [
       "rock",
       "steel"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Stakataka"
+    ]
   },
   "blacephalon": {
-    "legal": true,
+    "legal": false,
     "dex": 806,
     "types": [
       "fire",
       "ghost"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
-    ],
-    "speciesName": "Blacephalon"
+    ]
   },
   "zeraora": {
     "legal": true,

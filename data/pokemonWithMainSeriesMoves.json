@@ -5970,6 +5970,9 @@
       "id": "FAMILY_NIDORAN_FEMALE",
       "parent": "nidorina_shadow"
     },
+    "nicknames": [
+      "queen"
+    ],
     "sid": 992,
     "gender": "F"
   },
@@ -13055,7 +13058,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "searchPriority": 2,
     "family": {
@@ -13064,6 +13068,7 @@
         "graveler_alolan"
       ]
     },
+    "level25CP": 741,
     "sid": 2369,
     "gender": "male"
   },
@@ -13144,6 +13149,85 @@
       ]
     },
     "sid": 2368,
+    "gender": "male"
+  },
+  "geodude_alolan_shadow": {
+    "dex": 74,
+    "speciesName": "Geodude (Alolan) (Shadow)",
+    "speciesId": "geodude_alolan_shadow",
+    "baseStats": {
+      "atk": 132,
+      "def": 132,
+      "hp": 120
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "SPARK",
+      "TACKLE",
+      "TAKE_DOWN",
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DISCHARGE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "searchPriority": 2,
+    "family": {
+      "id": "FAMILY_GEODUDE",
+      "evolutions": [
+        "graveler_alolan_shadow"
+      ]
+    },
+    "sid": 2369,
     "gender": "male"
   },
   "graveler": {
@@ -13296,7 +13380,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "searchPriority": 3,
     "family": {
@@ -13309,6 +13394,7 @@
     "nicknames": [
       "agrav"
     ],
+    "level25CP": 1132,
     "sid": 2401,
     "gender": "male"
   },
@@ -13390,6 +13476,89 @@
       ]
     },
     "sid": 2400,
+    "gender": "male"
+  },
+  "graveler_alolan_shadow": {
+    "dex": 75,
+    "speciesName": "Graveler (Alolan) (Shadow)",
+    "speciesId": "graveler_alolan_shadow",
+    "baseStats": {
+      "atk": 164,
+      "def": 164,
+      "hp": 146
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "SPARK",
+      "TACKLE",
+      "TAKE_DOWN",
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DISCHARGE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "searchPriority": 3,
+    "family": {
+      "id": "FAMILY_GEODUDE",
+      "parent": "geodude_alolan_shadow",
+      "evolutions": [
+        "golem_alolan_shadow"
+      ]
+    },
+    "nicknames": [
+      "agrav"
+    ],
+    "sid": 2401,
     "gender": "male"
   },
   "golem": {
@@ -13551,13 +13720,15 @@
       "STRUGGLE"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "searchPriority": 2,
     "family": {
       "id": "FAMILY_GEODUDE",
       "parent": "graveler_alolan"
     },
+    "level25CP": 1825,
     "sid": 2433,
     "gender": "male"
   },
@@ -13642,6 +13813,89 @@
       "parent": "graveler_shadow"
     },
     "sid": 2432,
+    "gender": "male"
+  },
+  "golem_alolan_shadow": {
+    "dex": 76,
+    "speciesName": "Golem (Alolan) (Shadow)",
+    "speciesId": "golem_alolan_shadow",
+    "baseStats": {
+      "atk": 211,
+      "def": 198,
+      "hp": 190
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "SPARK",
+      "TACKLE",
+      "TAKE_DOWN",
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DISCHARGE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GYRO_BALL",
+      "HEAVY_SLAM",
+      "HYPER_BEAM",
+      "IRON_HEAD",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "WILD_CHARGE",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "searchPriority": 2,
+    "family": {
+      "id": "FAMILY_GEODUDE",
+      "parent": "graveler_alolan_shadow"
+    },
+    "sid": 2433,
     "gender": "male"
   },
   "ponyta": {
@@ -15844,6 +16098,9 @@
       "id": "FAMILY_GRIMER",
       "parent": "grimer_alolan_shadow"
     },
+    "nicknames": [
+      "amuk"
+    ],
     "sid": 2849,
     "gender": "male"
   },
@@ -16276,7 +16533,7 @@
       "ZAP_CANNON",
       "STRUGGLE"
     ],
-    "searchPriority": 4,
+    "searchPriority": 3,
     "family": {
       "id": "FAMILY_GASTLY",
       "parent": "gastly",
@@ -16934,7 +17191,7 @@
     "tags": [
       "shadow"
     ],
-    "searchPriority": 2,
+    "searchPriority": 3,
     "family": {
       "id": "FAMILY_DROWZEE",
       "parent": "drowzee_shadow"
@@ -20765,7 +21022,8 @@
     "family": {
       "id": "FAMILY_SCYTHER",
       "evolutions": [
-        "scizor_shadow"
+        "scizor_shadow",
+        "kleavor_shadow"
       ]
     },
     "sid": 3936,
@@ -23437,6 +23695,9 @@
       "id": "FAMILY_SNORLAX",
       "parent": "munchlax"
     },
+    "nicknames": [
+      "lax"
+    ],
     "sid": 4576,
     "gender": "male"
   },
@@ -26948,6 +27209,81 @@
         "ledian"
       ]
     },
+    "level25CP": 382,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 5280,
+    "gender": "male"
+  },
+  "ledyba_shadow": {
+    "dex": 165,
+    "speciesName": "Ledyba (Shadow)",
+    "speciesId": "ledyba_shadow",
+    "baseStats": {
+      "atk": 72,
+      "def": 118,
+      "hp": 120
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "BUG_BITE",
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INFESTATION",
+      "STRUGGLE_BUG",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "AIR_CUTTER",
+      "BRICK_BREAK",
+      "BUG_BUZZ",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "FRUSTRATION",
+      "GIGA_DRAIN",
+      "ICE_PUNCH",
+      "OMINOUS_WIND",
+      "POWER_UP_PUNCH",
+      "PSYBEAM",
+      "REST",
+      "RETURN",
+      "SILVER_WIND",
+      "SOLAR_BEAM",
+      "SWIFT",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_LEDYBA",
+      "evolutions": [
+        "ledian_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 5280,
     "gender": "male"
   },
@@ -27018,6 +27354,83 @@
       "id": "FAMILY_LEDYBA",
       "parent": "ledyba"
     },
+    "level25CP": 771,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 5312,
+    "gender": "male"
+  },
+  "ledian_shadow": {
+    "dex": 166,
+    "speciesName": "Ledian (Shadow)",
+    "speciesId": "ledian_shadow",
+    "baseStats": {
+      "atk": 107,
+      "def": 179,
+      "hp": 146
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "BUG_BITE",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INFESTATION",
+      "ROCK_SMASH",
+      "STRUGGLE_BUG",
+      "TACKLE",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "AIR_CUTTER",
+      "BRICK_BREAK",
+      "BUG_BUZZ",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_DRAIN",
+      "GIGA_IMPACT",
+      "HYPER_BEAM",
+      "ICE_PUNCH",
+      "OMINOUS_WIND",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "SILVER_WIND",
+      "SOLAR_BEAM",
+      "SWIFT",
+      "THUNDER_PUNCH",
+      "PSYBEAM",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_LEDYBA",
+      "parent": "ledyba_shadow"
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 5312,
     "gender": "male"
   },
@@ -29212,7 +29625,7 @@
       "SUBMISSION",
       "STRUGGLE"
     ],
-    "searchPriority": 10,
+    "searchPriority": 4,
     "level25CP": 1494,
     "tags": [
       "shadoweligible"
@@ -29303,7 +29716,6 @@
       "SUBMISSION",
       "STRUGGLE"
     ],
-    "searchPriority": 10,
     "tags": [
       "shadow"
     ],
@@ -36324,6 +36736,82 @@
       "id": "FAMILY_TYROGUE",
       "parent": "tyrogue"
     },
+    "level25CP": 1299,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 7584,
+    "gender": "M"
+  },
+  "hitmontop_shadow": {
+    "dex": 237,
+    "speciesName": "Hitmontop (Shadow)",
+    "speciesId": "hitmontop_shadow",
+    "baseStats": {
+      "atk": 173,
+      "def": 207,
+      "hp": 137
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "LOW_KICK",
+      "MUD_SLAP",
+      "QUICK_ATTACK",
+      "ROCK_SMASH",
+      "SUCKER_PUNCH",
+      "TACKLE",
+      "BULLET_PUNCH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CLOSE_COMBAT",
+      "DIG",
+      "DRILL_RUN",
+      "EARTHQUAKE",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "LOW_SWEEP",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "STONE_EDGE",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "searchPriority": 4,
+    "family": {
+      "id": "FAMILY_TYROGUE",
+      "parent": "tyrogue"
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 7584,
     "gender": "M"
   },
@@ -37735,6 +38223,115 @@
     "sid": 7936,
     "gender": "male"
   },
+  "tyranitar_mega": {
+    "dex": 248,
+    "speciesName": "Tyranitar (Mega)",
+    "speciesId": "tyranitar_mega",
+    "baseStats": {
+      "atk": 309,
+      "def": 276,
+      "hp": 225
+    },
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "fastMoves": [
+      "BITE",
+      "COUNTER",
+      "CUT",
+      "DRAGON_BREATH",
+      "DRAGON_TAIL",
+      "FIRE_FANG",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ICE_FANG",
+      "INCINERATE",
+      "IRON_TAIL",
+      "LOW_KICK",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "ROCK_THROW",
+      "SHADOW_CLAW",
+      "SMACK_DOWN",
+      "SNARL",
+      "TACKLE",
+      "THUNDER_FANG"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "ANCIENT_POWER",
+      "AQUA_TAIL",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DARK_PULSE",
+      "DIG",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "DYNAMIC_PUNCH",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FOCUS_BLAST",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HEAVY_SLAM",
+      "HYDRO_PUMP",
+      "HYPER_BEAM",
+      "ICE_BEAM",
+      "ICE_PUNCH",
+      "IRON_HEAD",
+      "MUDDY_WATER",
+      "OUTRAGE",
+      "PAYBACK",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "SURF",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "WATER_PULSE",
+      "STOMP",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "shadoweligible",
+      "mega"
+    ],
+    "level25CP": 3435,
+    "sid": 7937,
+    "gender": "male"
+  },
   "lugia": {
     "dex": 249,
     "speciesName": "Lugia",
@@ -38103,7 +38700,7 @@
       "legendary",
       "shadow"
     ],
-    "searchPriority": 4,
+    "searchPriority": 7,
     "nicknames": [
       "hooh",
       "ho oh"
@@ -44446,6 +45043,94 @@
     "sid": 9664,
     "gender": "male"
   },
+  "sableye_mega": {
+    "dex": 302,
+    "speciesName": "Sableye (Mega)",
+    "speciesId": "sableye_mega",
+    "baseStats": {
+      "atk": 151,
+      "def": 216,
+      "hp": 137
+    },
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "COUNTER",
+      "CUT",
+      "FEINT_ATTACK",
+      "FURY_CUTTER",
+      "HEX",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "LOW_KICK",
+      "MUD_SLAP",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "SCRATCH",
+      "SHADOW_CLAW",
+      "SNARL",
+      "SUCKER_PUNCH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "DARK_PULSE",
+      "DAZZLING_GLEAM",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "FIRE_PUNCH",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "ICE_PUNCH",
+      "ICY_WIND",
+      "LOW_SWEEP",
+      "NIGHT_SHADE",
+      "OCTAZOOKA",
+      "OMINOUS_WIND",
+      "PAYBACK",
+      "POWER_GEM",
+      "POWER_UP_PUNCH",
+      "PSYCHIC",
+      "REST",
+      "RETURN",
+      "ROCK_TOMB",
+      "SHADOW_BALL",
+      "SHADOW_SNEAK",
+      "SIGNAL_BEAM",
+      "THUNDER_PUNCH",
+      "WATER_PULSE",
+      "STRUGGLE"
+    ],
+    "level25CP": 1158,
+    "tags": [
+      "shadoweligible",
+      "mega"
+    ],
+    "sid": 9665,
+    "gender": "male"
+  },
   "sableye_shadow": {
     "dex": 302,
     "speciesName": "Sableye (Shadow)",
@@ -46707,7 +47392,8 @@
     ],
     "tags": [
       "shadoweligible",
-      "shadow"
+      "shadow",
+      "include1500"
     ],
     "family": {
       "id": "FAMILY_CARVANHA",
@@ -53913,7 +54599,89 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "shadoweligible"
+    ],
+    "level25CP": 1934,
+    "sid": 12064,
+    "gender": "N"
+  },
+  "regirock_shadow": {
+    "dex": 377,
+    "speciesName": "Regirock (Shadow)",
+    "speciesId": "regirock_shadow",
+    "baseStats": {
+      "atk": 179,
+      "def": 309,
+      "hp": 190
+    },
+    "types": [
+      "rock",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "LOCK_ON",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "ROCK_THROW",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_PUNCH",
+      "FLASH_CANNON",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HEAVY_SLAM",
+      "HYPER_BEAM",
+      "ICE_PUNCH",
+      "IRON_HEAD",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STOMP",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "ZAP_CANNON",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "legendary",
+      "shadow"
     ],
     "sid": 12064,
     "gender": "N"
@@ -55082,6 +55850,101 @@
       "legendary"
     ],
     "sid": 12288,
+    "gender": "N"
+  },
+  "rayquaza_mega": {
+    "dex": 384,
+    "speciesName": "Rayquaza (Mega)",
+    "speciesId": "rayquaza_mega",
+    "baseStats": {
+      "atk": 377,
+      "def": 210,
+      "hp": 227
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "DRAGON_TAIL",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "ANCIENT_POWER",
+      "AQUA_TAIL",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "ENERGY_BALL",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FLY",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GYRO_BALL",
+      "HURRICANE",
+      "HYDRO_PUMP",
+      "HYPER_BEAM",
+      "ICE_BEAM",
+      "ICY_WIND",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "OVERHEAT",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SOLAR_BEAM",
+      "STONE_EDGE",
+      "SURF",
+      "SWIFT",
+      "THUNDER",
+      "THUNDERBOLT",
+      "TWISTER",
+      "V_CREATE",
+      "WATER_PULSE",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "legendary",
+      "mega",
+      "unreleased"
+    ],
+    "sid": 12289,
     "gender": "N"
   },
   "jirachi": {
@@ -60464,6 +61327,82 @@
         "purugly"
       ]
     },
+    "level25CP": 511,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 13792,
+    "gender": "male"
+  },
+  "glameow_shadow": {
+    "dex": 431,
+    "speciesName": "Glameow (Shadow)",
+    "speciesId": "glameow_shadow",
+    "baseStats": {
+      "atk": 109,
+      "def": 82,
+      "hp": 135
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CHARM",
+      "CUT",
+      "FEINT_ATTACK",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "IRON_TAIL",
+      "MUD_SLAP",
+      "QUICK_ATTACK",
+      "SCRATCH",
+      "SHADOW_CLAW",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "DIG",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "LAST_RESORT",
+      "PAYBACK",
+      "PLAY_ROUGH",
+      "REST",
+      "RETURN",
+      "SHADOW_BALL",
+      "SWIFT",
+      "THUNDER",
+      "THUNDERBOLT",
+      "WATER_PULSE",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GLAMEOW",
+      "evolutions": [
+        "purugly_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 13792,
     "gender": "male"
   },
@@ -60535,6 +61474,84 @@
       "id": "FAMILY_GLAMEOW",
       "parent": "glameow"
     },
+    "level25CP": 1167,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 13824,
+    "gender": "male"
+  },
+  "purugly_shadow": {
+    "dex": 432,
+    "speciesName": "Purugly (Shadow)",
+    "speciesId": "purugly_shadow",
+    "baseStats": {
+      "atk": 172,
+      "def": 133,
+      "hp": 174
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARM",
+      "CUT",
+      "FEINT_ATTACK",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "IRON_TAIL",
+      "MUD_SLAP",
+      "SCRATCH",
+      "SHADOW_CLAW",
+      "SUCKER_PUNCH",
+      "BITE",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BULLDOZE",
+      "DIG",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HYPER_BEAM",
+      "LAST_RESORT",
+      "PAYBACK",
+      "REST",
+      "RETURN",
+      "SHADOW_BALL",
+      "SWIFT",
+      "THUNDER",
+      "THUNDERBOLT",
+      "WATER_PULSE",
+      "PLAY_ROUGH",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GLAMEOW",
+      "parent": "glameow_shadow"
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 13824,
     "gender": "male"
   },
@@ -61446,6 +62463,92 @@
         "gabite"
       ]
     },
+    "level25CP": 623,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 14176,
+    "gender": "male"
+  },
+  "gible_shadow": {
+    "dex": 443,
+    "speciesName": "Gible (Shadow)",
+    "speciesId": "gible_shadow",
+    "baseStats": {
+      "atk": 124,
+      "def": 84,
+      "hp": 151
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CUT",
+      "DRAGON_BREATH",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "METAL_CLAW",
+      "MUD_SHOT",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "TACKLE",
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BULLDOZE",
+      "DIG",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GIBLE",
+      "evolutions": [
+        "gabite_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 14176,
     "gender": "male"
   },
@@ -61526,6 +62629,93 @@
         "garchomp"
       ]
     },
+    "level25CP": 1115,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 14208,
+    "gender": "male"
+  },
+  "gabite_shadow": {
+    "dex": 444,
+    "speciesName": "Gabite (Shadow)",
+    "speciesId": "gabite_shadow",
+    "baseStats": {
+      "atk": 172,
+      "def": 125,
+      "hp": 169
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CUT",
+      "DRAGON_BREATH",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "MUD_SHOT",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "TACKLE",
+      "TAKE_DOWN",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BULLDOZE",
+      "DIG",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GIBLE",
+      "parent": "gible_shadow",
+      "evolutions": [
+        "garchomp_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 14208,
     "gender": "male"
   },
@@ -61615,6 +62805,103 @@
     },
     "nicknames": [
       "chomp"
+    ],
+    "level25CP": 2500,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 14240,
+    "gender": "male"
+  },
+  "garchomp_shadow": {
+    "dex": 445,
+    "speciesName": "Garchomp (Shadow)",
+    "speciesId": "garchomp_shadow",
+    "baseStats": {
+      "atk": 261,
+      "def": 193,
+      "hp": 239
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CUT",
+      "DRAGON_BREATH",
+      "DRAGON_TAIL",
+      "FIRE_FANG",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "MUD_SHOT",
+      "MUD_SLAP",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "TACKLE",
+      "TAKE_DOWN",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "AQUA_TAIL",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DIG",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HYPER_BEAM",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SURF",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "searchPriority": 8,
+    "family": {
+      "id": "FAMILY_GIBLE",
+      "parent": "gabite_shadow"
+    },
+    "nicknames": [
+      "chomp"
+    ],
+    "tags": [
+      "shadow"
     ],
     "sid": 14240,
     "gender": "male"
@@ -65988,9 +67275,6 @@
       "THUNDERBOLT",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "sid": 15331,
     "gender": "N"
   },
@@ -66649,6 +67933,7 @@
     "tags": [
       "legendary"
     ],
+    "searchPriority": 3,
     "sid": 15520,
     "gender": "male"
   },
@@ -72940,6 +74225,76 @@
       "THUNDER_PUNCH",
       "STRUGGLE"
     ],
+    "level25CP": 1565,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 17216,
+    "gender": "M"
+  },
+  "throh_shadow": {
+    "dex": 538,
+    "speciesId": "throh_shadow",
+    "speciesName": "Throh (Shadow)",
+    "baseStats": {
+      "atk": 172,
+      "def": 160,
+      "hp": 260
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "LOW_KICK",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "EARTHQUAKE",
+      "FIRE_PUNCH",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GRASS_KNOT",
+      "ICE_PUNCH",
+      "LOW_SWEEP",
+      "PAYBACK",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "shadow"
+    ],
     "sid": 17216,
     "gender": "M"
   },
@@ -73004,6 +74359,78 @@
       "SUPER_POWER",
       "THUNDER_PUNCH",
       "STRUGGLE"
+    ],
+    "level25CP": 1714,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 17248,
+    "gender": "M"
+  },
+  "sawk_shadow": {
+    "dex": 539,
+    "speciesId": "sawk_shadow",
+    "speciesName": "Sawk (Shadow)",
+    "baseStats": {
+      "atk": 231,
+      "def": 153,
+      "hp": 181
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "KARATE_CHOP",
+      "LOW_KICK",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CLOSE_COMBAT",
+      "DIG",
+      "EARTHQUAKE",
+      "FIRE_PUNCH",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GRASS_KNOT",
+      "ICE_PUNCH",
+      "LOW_SWEEP",
+      "PAYBACK",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "shadow"
     ],
     "sid": 17248,
     "gender": "M"
@@ -78677,6 +80104,7 @@
       "NIGHT_SLASH",
       "STRUGGLE"
     ],
+    "searchPriority": 4,
     "family": {
       "id": "FAMILY_AXEW",
       "parent": "fraxure"
@@ -83178,6 +84606,7 @@
       "WATER_PULSE",
       "STRUGGLE"
     ],
+    "searchPriority": 4,
     "family": {
       "id": "FAMILY_FROAKIE",
       "parent": "frogadier"
@@ -86309,9 +87738,7 @@
       "STONE_EDGE",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
+    "searchPriority": 3,
     "sid": 22496,
     "gender": "N"
   },
@@ -87723,6 +89150,7 @@
     "tags": [
       "legendary"
     ],
+    "searchPriority": 4,
     "sid": 22913,
     "gender": "N"
   },
@@ -87796,9 +89224,80 @@
     "sid": 22944,
     "gender": "N"
   },
+  "zygarde_10": {
+    "dex": 718,
+    "speciesName": "Zygarde (10% Forme)",
+    "speciesId": "zygarde_10",
+    "baseStats": {
+      "atk": 205,
+      "def": 173,
+      "hp": 144
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "BITE",
+      "DRAGON_TAIL",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "IRON_TAIL",
+      "ROCK_SMASH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "DRAGON_PULSE",
+      "OUTRAGE",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DRACO_METEOR",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GRASS_KNOT",
+      "HYPER_BEAM",
+      "PAYBACK",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "SLUDGE_WAVE",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "SWIFT",
+      "STRUGGLE"
+    ],
+    "levelFloor": 15,
+    "tags": [
+      "legendary"
+    ],
+    "sid": null,
+    "gender": "N"
+  },
   "zygarde": {
     "dex": 718,
-    "speciesName": "Zygarde",
+    "speciesName": "Zygarde (50% Forme)",
     "speciesId": "zygarde",
     "baseStats": {
       "atk": 203,
@@ -87860,11 +89359,43 @@
       "SWIFT",
       "STRUGGLE"
     ],
+    "levelFloor": 15,
     "tags": [
-      "legendary",
-      "unreleased"
+      "legendary"
     ],
     "sid": 22976,
+    "gender": "N"
+  },
+  "zygarde_complete": {
+    "dex": 718,
+    "speciesName": "Zygarde (Complete Forme)",
+    "speciesId": "zygarde_complete",
+    "baseStats": {
+      "atk": 184,
+      "def": 207,
+      "hp": 389
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "BITE",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "EARTHQUAKE",
+      "CRUNCH",
+      "HYPER_BEAM",
+      "BULLDOZE"
+    ],
+    "levelFloor": 15,
+    "tags": [
+      "legendary"
+    ],
+    "sid": 22980,
     "gender": "N"
   },
   "diancie": {
@@ -87927,7 +89458,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "unreleased"
+      "mythical",
+      "untradeable"
     ],
     "sid": 23008,
     "gender": "N"
@@ -91609,9 +93141,6 @@
       "SUPER_POWER",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24512,
     "gender": "male"
   },
@@ -91815,9 +93344,6 @@
         "palossand"
       ]
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24608,
     "gender": "male"
   },
@@ -91882,9 +93408,6 @@
       "id": "FAMILY_SANDYGAST",
       "parent": "sandygast"
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24640,
     "gender": "male"
   },
@@ -93603,9 +95126,6 @@
       "SUPER_POWER",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24800,
     "gender": "male"
   },
@@ -93676,9 +95196,6 @@
       "SOLAR_BEAM",
       "STONE_EDGE",
       "STRUGGLE"
-    ],
-    "tags": [
-      "unreleased"
     ],
     "sid": 24832,
     "gender": "male"
@@ -94819,7 +96336,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25376,
     "gender": "N"
@@ -94888,7 +96406,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25408,
     "gender": "N"
@@ -94953,7 +96472,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25440,
     "gender": "N"
@@ -95016,7 +96536,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25472,
     "gender": "N"
@@ -95088,7 +96609,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25504,
     "gender": "N"
@@ -95148,6 +96670,7 @@
     ],
     "tags": [
       "legendary",
+      "ultrabeast",
       "include1500"
     ],
     "levelFloor": 15,
@@ -95226,7 +96749,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "searchPriority": 4,
     "levelFloor": 20,
@@ -95304,6 +96828,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25600,
@@ -95380,6 +96906,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25602,
@@ -95456,6 +96984,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25601,
@@ -95532,6 +97062,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25603,
@@ -95657,15 +97189,17 @@
       "SLUDGE_WAVE",
       "STRUGGLE"
     ],
+    "tags": [
+      "legendary",
+      "ultrabeast",
+      "unreleased"
+    ],
     "family": {
       "id": "FAMILY_POIPOLE",
       "evolutions": [
         "naganadel"
       ]
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 25696,
     "gender": "N"
   },
@@ -95740,13 +97274,15 @@
       "X_SCISSOR",
       "STRUGGLE"
     ],
+    "tags": [
+      "legendary",
+      "ultrabeast",
+      "unreleased"
+    ],
     "family": {
       "id": "FAMILY_POIPOLE",
       "parent": "poipole"
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 25728,
     "gender": "N"
   },
@@ -95809,6 +97345,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25760,
@@ -95878,6 +97416,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25792,
@@ -101145,7 +102685,8 @@
       "FIRE_PUNCH",
       "THUNDER_PUNCH",
       "AERIAL_ACE",
-      "HIGH_HORSEPOWER"
+      "HIGH_HORSEPOWER",
+      "ICE_PUNCH"
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
@@ -101182,7 +102723,8 @@
       "FIRE_PUNCH",
       "THUNDER_PUNCH",
       "AERIAL_ACE",
-      "HIGH_HORSEPOWER"
+      "HIGH_HORSEPOWER",
+      "ICE_PUNCH"
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
