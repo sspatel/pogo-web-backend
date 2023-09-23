@@ -5970,6 +5970,9 @@
       "id": "FAMILY_NIDORAN_FEMALE",
       "parent": "nidorina_shadow"
     },
+    "nicknames": [
+      "queen"
+    ],
     "sid": 992,
     "gender": "F"
   },
@@ -10334,7 +10337,10 @@
     ],
     "family": {
       "id": "FAMILY_MANKEY",
-      "parent": "mankey"
+      "parent": "mankey",
+      "evolutions": [
+        "annihilape"
+      ]
     },
     "sid": 1824,
     "gender": "male"
@@ -10450,7 +10456,7 @@
         "arcanine_hisuian"
       ]
     },
-    "sid": 1856,
+    "sid": 1857,
     "gender": "male"
   },
   "growlithe_shadow": {
@@ -10649,7 +10655,7 @@
       "id": "FAMILY_GROWLITHE",
       "parent": "growlithe_hisuian"
     },
-    "sid": 1888,
+    "sid": 1889,
     "gender": "male"
   },
   "arcanine_shadow": {
@@ -13055,7 +13061,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "searchPriority": 2,
     "family": {
@@ -13064,6 +13071,7 @@
         "graveler_alolan"
       ]
     },
+    "level25CP": 741,
     "sid": 2369,
     "gender": "male"
   },
@@ -13144,6 +13152,85 @@
       ]
     },
     "sid": 2368,
+    "gender": "male"
+  },
+  "geodude_alolan_shadow": {
+    "dex": 74,
+    "speciesName": "Geodude (Alolan) (Shadow)",
+    "speciesId": "geodude_alolan_shadow",
+    "baseStats": {
+      "atk": 132,
+      "def": 132,
+      "hp": 120
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "SPARK",
+      "TACKLE",
+      "TAKE_DOWN",
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DISCHARGE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "searchPriority": 2,
+    "family": {
+      "id": "FAMILY_GEODUDE",
+      "evolutions": [
+        "graveler_alolan_shadow"
+      ]
+    },
+    "sid": 2369,
     "gender": "male"
   },
   "graveler": {
@@ -13296,7 +13383,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "searchPriority": 3,
     "family": {
@@ -13309,6 +13397,7 @@
     "nicknames": [
       "agrav"
     ],
+    "level25CP": 1132,
     "sid": 2401,
     "gender": "male"
   },
@@ -13390,6 +13479,89 @@
       ]
     },
     "sid": 2400,
+    "gender": "male"
+  },
+  "graveler_alolan_shadow": {
+    "dex": 75,
+    "speciesName": "Graveler (Alolan) (Shadow)",
+    "speciesId": "graveler_alolan_shadow",
+    "baseStats": {
+      "atk": 164,
+      "def": 164,
+      "hp": 146
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "SPARK",
+      "TACKLE",
+      "TAKE_DOWN",
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DISCHARGE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "searchPriority": 3,
+    "family": {
+      "id": "FAMILY_GEODUDE",
+      "parent": "geodude_alolan_shadow",
+      "evolutions": [
+        "golem_alolan_shadow"
+      ]
+    },
+    "nicknames": [
+      "agrav"
+    ],
+    "sid": 2401,
     "gender": "male"
   },
   "golem": {
@@ -13551,13 +13723,15 @@
       "STRUGGLE"
     ],
     "tags": [
-      "alolan"
+      "alolan",
+      "shadoweligible"
     ],
     "searchPriority": 2,
     "family": {
       "id": "FAMILY_GEODUDE",
       "parent": "graveler_alolan"
     },
+    "level25CP": 1825,
     "sid": 2433,
     "gender": "male"
   },
@@ -13642,6 +13816,89 @@
       "parent": "graveler_shadow"
     },
     "sid": 2432,
+    "gender": "male"
+  },
+  "golem_alolan_shadow": {
+    "dex": 76,
+    "speciesName": "Golem (Alolan) (Shadow)",
+    "speciesId": "golem_alolan_shadow",
+    "baseStats": {
+      "atk": 211,
+      "def": 198,
+      "hp": 190
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "SPARK",
+      "TACKLE",
+      "TAKE_DOWN",
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DISCHARGE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GYRO_BALL",
+      "HEAVY_SLAM",
+      "HYPER_BEAM",
+      "IRON_HEAD",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "WILD_CHARGE",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "alolan",
+      "shadow"
+    ],
+    "searchPriority": 2,
+    "family": {
+      "id": "FAMILY_GEODUDE",
+      "parent": "graveler_alolan_shadow"
+    },
+    "sid": 2433,
     "gender": "male"
   },
   "ponyta": {
@@ -15844,6 +16101,9 @@
       "id": "FAMILY_GRIMER",
       "parent": "grimer_alolan_shadow"
     },
+    "nicknames": [
+      "amuk"
+    ],
     "sid": 2849,
     "gender": "male"
   },
@@ -16276,7 +16536,7 @@
       "ZAP_CANNON",
       "STRUGGLE"
     ],
-    "searchPriority": 4,
+    "searchPriority": 3,
     "family": {
       "id": "FAMILY_GASTLY",
       "parent": "gastly",
@@ -16934,7 +17194,7 @@
     "tags": [
       "shadow"
     ],
-    "searchPriority": 2,
+    "searchPriority": 3,
     "family": {
       "id": "FAMILY_DROWZEE",
       "parent": "drowzee_shadow"
@@ -17192,7 +17452,7 @@
         "electrode_hisuian"
       ]
     },
-    "sid": 3200,
+    "sid": 3201,
     "gender": "N"
   },
   "voltorb_shadow": {
@@ -17363,7 +17623,7 @@
       "id": "FAMILY_VOLTORB",
       "parent": "voltorb_hisuian"
     },
-    "sid": 3232,
+    "sid": 3233,
     "gender": "N"
   },
   "electrode_shadow": {
@@ -20765,7 +21025,8 @@
     "family": {
       "id": "FAMILY_SCYTHER",
       "evolutions": [
-        "scizor_shadow"
+        "scizor_shadow",
+        "kleavor_shadow"
       ]
     },
     "sid": 3936,
@@ -23437,6 +23698,9 @@
       "id": "FAMILY_SNORLAX",
       "parent": "munchlax"
     },
+    "nicknames": [
+      "lax"
+    ],
     "sid": 4576,
     "gender": "male"
   },
@@ -24284,7 +24548,8 @@
       ]
     },
     "nicknames": [
-      "dnair"
+      "dnair",
+      "nair"
     ],
     "sid": 4736,
     "gender": "male"
@@ -24370,7 +24635,8 @@
       ]
     },
     "nicknames": [
-      "dnair"
+      "dnair",
+      "nair"
     ],
     "sid": 4736,
     "gender": "male"
@@ -26948,6 +27214,81 @@
         "ledian"
       ]
     },
+    "level25CP": 382,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 5280,
+    "gender": "male"
+  },
+  "ledyba_shadow": {
+    "dex": 165,
+    "speciesName": "Ledyba (Shadow)",
+    "speciesId": "ledyba_shadow",
+    "baseStats": {
+      "atk": 72,
+      "def": 118,
+      "hp": 120
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "BUG_BITE",
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INFESTATION",
+      "STRUGGLE_BUG",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "AIR_CUTTER",
+      "BRICK_BREAK",
+      "BUG_BUZZ",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "FRUSTRATION",
+      "GIGA_DRAIN",
+      "ICE_PUNCH",
+      "OMINOUS_WIND",
+      "POWER_UP_PUNCH",
+      "PSYBEAM",
+      "REST",
+      "RETURN",
+      "SILVER_WIND",
+      "SOLAR_BEAM",
+      "SWIFT",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_LEDYBA",
+      "evolutions": [
+        "ledian_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 5280,
     "gender": "male"
   },
@@ -27018,6 +27359,83 @@
       "id": "FAMILY_LEDYBA",
       "parent": "ledyba"
     },
+    "level25CP": 771,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 5312,
+    "gender": "male"
+  },
+  "ledian_shadow": {
+    "dex": 166,
+    "speciesName": "Ledian (Shadow)",
+    "speciesId": "ledian_shadow",
+    "baseStats": {
+      "atk": 107,
+      "def": 179,
+      "hp": 146
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "BUG_BITE",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INFESTATION",
+      "ROCK_SMASH",
+      "STRUGGLE_BUG",
+      "TACKLE",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "AIR_CUTTER",
+      "BRICK_BREAK",
+      "BUG_BUZZ",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_DRAIN",
+      "GIGA_IMPACT",
+      "HYPER_BEAM",
+      "ICE_PUNCH",
+      "OMINOUS_WIND",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "SILVER_WIND",
+      "SOLAR_BEAM",
+      "SWIFT",
+      "THUNDER_PUNCH",
+      "PSYBEAM",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_LEDYBA",
+      "parent": "ledyba_shadow"
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 5312,
     "gender": "male"
   },
@@ -29212,7 +29630,7 @@
       "SUBMISSION",
       "STRUGGLE"
     ],
-    "searchPriority": 10,
+    "searchPriority": 4,
     "level25CP": 1494,
     "tags": [
       "shadoweligible"
@@ -29303,7 +29721,6 @@
       "SUBMISSION",
       "STRUGGLE"
     ],
-    "searchPriority": 10,
     "tags": [
       "shadow"
     ],
@@ -31290,6 +31707,12 @@
     "tags": [
       "shadoweligible"
     ],
+    "family": {
+      "id": "FAMILY_GIRAFARIG",
+      "evolutions": [
+        "farigaraf"
+      ]
+    },
     "sid": 6496,
     "gender": "male"
   },
@@ -31364,6 +31787,12 @@
     "tags": [
       "shadow"
     ],
+    "family": {
+      "id": "FAMILY_GIRAFARIG",
+      "evolutions": [
+        "farigaraf_shadow"
+      ]
+    },
     "sid": 6496,
     "gender": "male"
   },
@@ -32660,7 +33089,7 @@
     "nicknames": [
       "hqwil"
     ],
-    "sid": 6752,
+    "sid": 6753,
     "gender": "male"
   },
   "scizor": {
@@ -33229,7 +33658,7 @@
         "sneasler"
       ]
     },
-    "sid": 6880,
+    "sid": 6881,
     "gender": "male"
   },
   "sneasel_shadow": {
@@ -36324,6 +36753,82 @@
       "id": "FAMILY_TYROGUE",
       "parent": "tyrogue"
     },
+    "level25CP": 1299,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 7584,
+    "gender": "M"
+  },
+  "hitmontop_shadow": {
+    "dex": 237,
+    "speciesName": "Hitmontop (Shadow)",
+    "speciesId": "hitmontop_shadow",
+    "baseStats": {
+      "atk": 173,
+      "def": 207,
+      "hp": 137
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "LOW_KICK",
+      "MUD_SLAP",
+      "QUICK_ATTACK",
+      "ROCK_SMASH",
+      "SUCKER_PUNCH",
+      "TACKLE",
+      "BULLET_PUNCH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CLOSE_COMBAT",
+      "DIG",
+      "DRILL_RUN",
+      "EARTHQUAKE",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "LOW_SWEEP",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "STONE_EDGE",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "searchPriority": 4,
+    "family": {
+      "id": "FAMILY_TYROGUE",
+      "parent": "tyrogue"
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 7584,
     "gender": "M"
   },
@@ -37735,6 +38240,115 @@
     "sid": 7936,
     "gender": "male"
   },
+  "tyranitar_mega": {
+    "dex": 248,
+    "speciesName": "Tyranitar (Mega)",
+    "speciesId": "tyranitar_mega",
+    "baseStats": {
+      "atk": 309,
+      "def": 276,
+      "hp": 225
+    },
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "fastMoves": [
+      "BITE",
+      "COUNTER",
+      "CUT",
+      "DRAGON_BREATH",
+      "DRAGON_TAIL",
+      "FIRE_FANG",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ICE_FANG",
+      "INCINERATE",
+      "IRON_TAIL",
+      "LOW_KICK",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "ROCK_THROW",
+      "SHADOW_CLAW",
+      "SMACK_DOWN",
+      "SNARL",
+      "TACKLE",
+      "THUNDER_FANG"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "ANCIENT_POWER",
+      "AQUA_TAIL",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DARK_PULSE",
+      "DIG",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "DYNAMIC_PUNCH",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER",
+      "FOCUS_BLAST",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HEAVY_SLAM",
+      "HYDRO_PUMP",
+      "HYPER_BEAM",
+      "ICE_BEAM",
+      "ICE_PUNCH",
+      "IRON_HEAD",
+      "MUDDY_WATER",
+      "OUTRAGE",
+      "PAYBACK",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "SURF",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "WATER_PULSE",
+      "STOMP",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "shadoweligible",
+      "mega"
+    ],
+    "level25CP": 3435,
+    "sid": 7937,
+    "gender": "male"
+  },
   "lugia": {
     "dex": 249,
     "speciesName": "Lugia",
@@ -38103,7 +38717,7 @@
       "legendary",
       "shadow"
     ],
-    "searchPriority": 4,
+    "searchPriority": 7,
     "nicknames": [
       "hooh",
       "ho oh"
@@ -44446,6 +45060,94 @@
     "sid": 9664,
     "gender": "male"
   },
+  "sableye_mega": {
+    "dex": 302,
+    "speciesName": "Sableye (Mega)",
+    "speciesId": "sableye_mega",
+    "baseStats": {
+      "atk": 151,
+      "def": 216,
+      "hp": 137
+    },
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "COUNTER",
+      "CUT",
+      "FEINT_ATTACK",
+      "FURY_CUTTER",
+      "HEX",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "LOW_KICK",
+      "MUD_SLAP",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "SCRATCH",
+      "SHADOW_CLAW",
+      "SNARL",
+      "SUCKER_PUNCH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "DARK_PULSE",
+      "DAZZLING_GLEAM",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "FIRE_PUNCH",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "GYRO_BALL",
+      "ICE_PUNCH",
+      "ICY_WIND",
+      "LOW_SWEEP",
+      "NIGHT_SHADE",
+      "OCTAZOOKA",
+      "OMINOUS_WIND",
+      "PAYBACK",
+      "POWER_GEM",
+      "POWER_UP_PUNCH",
+      "PSYCHIC",
+      "REST",
+      "RETURN",
+      "ROCK_TOMB",
+      "SHADOW_BALL",
+      "SHADOW_SNEAK",
+      "SIGNAL_BEAM",
+      "THUNDER_PUNCH",
+      "WATER_PULSE",
+      "STRUGGLE"
+    ],
+    "level25CP": 1158,
+    "tags": [
+      "shadoweligible",
+      "mega"
+    ],
+    "sid": 9665,
+    "gender": "male"
+  },
   "sableye_shadow": {
     "dex": 302,
     "speciesName": "Sableye (Shadow)",
@@ -46707,7 +47409,8 @@
     ],
     "tags": [
       "shadoweligible",
-      "shadow"
+      "shadow",
+      "include1500"
     ],
     "family": {
       "id": "FAMILY_CARVANHA",
@@ -53913,7 +54616,89 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "shadoweligible"
+    ],
+    "level25CP": 1934,
+    "sid": 12064,
+    "gender": "N"
+  },
+  "regirock_shadow": {
+    "dex": 377,
+    "speciesName": "Regirock (Shadow)",
+    "speciesId": "regirock_shadow",
+    "baseStats": {
+      "atk": 179,
+      "def": 309,
+      "hp": 190
+    },
+    "types": [
+      "rock",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "LOCK_ON",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "ROCK_THROW",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "DYNAMIC_PUNCH",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_PUNCH",
+      "FLASH_CANNON",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HEAVY_SLAM",
+      "HYPER_BEAM",
+      "ICE_PUNCH",
+      "IRON_HEAD",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STOMP",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDER_PUNCH",
+      "ZAP_CANNON",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "legendary",
+      "shadow"
     ],
     "sid": 12064,
     "gender": "N"
@@ -55082,6 +55867,101 @@
       "legendary"
     ],
     "sid": 12288,
+    "gender": "N"
+  },
+  "rayquaza_mega": {
+    "dex": 384,
+    "speciesName": "Rayquaza (Mega)",
+    "speciesId": "rayquaza_mega",
+    "baseStats": {
+      "atk": 377,
+      "def": 210,
+      "hp": 227
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "DRAGON_TAIL",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "ANCIENT_POWER",
+      "AQUA_TAIL",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "ENERGY_BALL",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FLY",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GYRO_BALL",
+      "HURRICANE",
+      "HYDRO_PUMP",
+      "HYPER_BEAM",
+      "ICE_BEAM",
+      "ICY_WIND",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "OVERHEAT",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SOLAR_BEAM",
+      "STONE_EDGE",
+      "SURF",
+      "SWIFT",
+      "THUNDER",
+      "THUNDERBOLT",
+      "TWISTER",
+      "V_CREATE",
+      "WATER_PULSE",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "legendary",
+      "mega",
+      "unreleased"
+    ],
+    "sid": 12289,
     "gender": "N"
   },
   "jirachi": {
@@ -60464,6 +61344,82 @@
         "purugly"
       ]
     },
+    "level25CP": 511,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 13792,
+    "gender": "male"
+  },
+  "glameow_shadow": {
+    "dex": 431,
+    "speciesName": "Glameow (Shadow)",
+    "speciesId": "glameow_shadow",
+    "baseStats": {
+      "atk": 109,
+      "def": 82,
+      "hp": 135
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CHARM",
+      "CUT",
+      "FEINT_ATTACK",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "IRON_TAIL",
+      "MUD_SLAP",
+      "QUICK_ATTACK",
+      "SCRATCH",
+      "SHADOW_CLAW",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "DIG",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "LAST_RESORT",
+      "PAYBACK",
+      "PLAY_ROUGH",
+      "REST",
+      "RETURN",
+      "SHADOW_BALL",
+      "SWIFT",
+      "THUNDER",
+      "THUNDERBOLT",
+      "WATER_PULSE",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GLAMEOW",
+      "evolutions": [
+        "purugly_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 13792,
     "gender": "male"
   },
@@ -60535,6 +61491,84 @@
       "id": "FAMILY_GLAMEOW",
       "parent": "glameow"
     },
+    "level25CP": 1167,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 13824,
+    "gender": "male"
+  },
+  "purugly_shadow": {
+    "dex": 432,
+    "speciesName": "Purugly (Shadow)",
+    "speciesId": "purugly_shadow",
+    "baseStats": {
+      "atk": 172,
+      "def": 133,
+      "hp": 174
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARM",
+      "CUT",
+      "FEINT_ATTACK",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "IRON_TAIL",
+      "MUD_SLAP",
+      "SCRATCH",
+      "SHADOW_CLAW",
+      "SUCKER_PUNCH",
+      "BITE",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BULLDOZE",
+      "DIG",
+      "FOUL_PLAY",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HYPER_BEAM",
+      "LAST_RESORT",
+      "PAYBACK",
+      "REST",
+      "RETURN",
+      "SHADOW_BALL",
+      "SWIFT",
+      "THUNDER",
+      "THUNDERBOLT",
+      "WATER_PULSE",
+      "PLAY_ROUGH",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GLAMEOW",
+      "parent": "glameow_shadow"
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 13824,
     "gender": "male"
   },
@@ -61446,6 +62480,92 @@
         "gabite"
       ]
     },
+    "level25CP": 623,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 14176,
+    "gender": "male"
+  },
+  "gible_shadow": {
+    "dex": 443,
+    "speciesName": "Gible (Shadow)",
+    "speciesId": "gible_shadow",
+    "baseStats": {
+      "atk": 124,
+      "def": 84,
+      "hp": 151
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CUT",
+      "DRAGON_BREATH",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "METAL_CLAW",
+      "MUD_SHOT",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "TACKLE",
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BULLDOZE",
+      "DIG",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GIBLE",
+      "evolutions": [
+        "gabite_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 14176,
     "gender": "male"
   },
@@ -61526,6 +62646,93 @@
         "garchomp"
       ]
     },
+    "level25CP": 1115,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 14208,
+    "gender": "male"
+  },
+  "gabite_shadow": {
+    "dex": 444,
+    "speciesName": "Gabite (Shadow)",
+    "speciesId": "gabite_shadow",
+    "baseStats": {
+      "atk": 172,
+      "def": 125,
+      "hp": 169
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CUT",
+      "DRAGON_BREATH",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "MUD_SHOT",
+      "MUD_SLAP",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "TACKLE",
+      "TAKE_DOWN",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BODY_SLAM",
+      "BULLDOZE",
+      "DIG",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "family": {
+      "id": "FAMILY_GIBLE",
+      "parent": "gible_shadow",
+      "evolutions": [
+        "garchomp_shadow"
+      ]
+    },
+    "tags": [
+      "shadow"
+    ],
     "sid": 14208,
     "gender": "male"
   },
@@ -61615,6 +62822,103 @@
     },
     "nicknames": [
       "chomp"
+    ],
+    "level25CP": 2500,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 14240,
+    "gender": "male"
+  },
+  "garchomp_shadow": {
+    "dex": 445,
+    "speciesName": "Garchomp (Shadow)",
+    "speciesId": "garchomp_shadow",
+    "baseStats": {
+      "atk": 261,
+      "def": 193,
+      "hp": 239
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "CUT",
+      "DRAGON_BREATH",
+      "DRAGON_TAIL",
+      "FIRE_FANG",
+      "FURY_CUTTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "INCINERATE",
+      "IRON_TAIL",
+      "MUD_SHOT",
+      "MUD_SLAP",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "SHADOW_CLAW",
+      "TACKLE",
+      "TAKE_DOWN",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "AQUA_TAIL",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DIG",
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "HYPER_BEAM",
+      "IRON_HEAD",
+      "OUTRAGE",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "SURF",
+      "SWIFT",
+      "TWISTER",
+      "STRUGGLE"
+    ],
+    "searchPriority": 8,
+    "family": {
+      "id": "FAMILY_GIBLE",
+      "parent": "gabite_shadow"
+    },
+    "nicknames": [
+      "chomp"
+    ],
+    "tags": [
+      "shadow"
     ],
     "sid": 14240,
     "gender": "male"
@@ -65988,9 +67292,6 @@
       "THUNDERBOLT",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "sid": 15331,
     "gender": "N"
   },
@@ -66649,6 +67950,7 @@
     "tags": [
       "legendary"
     ],
+    "searchPriority": 3,
     "sid": 15520,
     "gender": "male"
   },
@@ -72940,6 +74242,76 @@
       "THUNDER_PUNCH",
       "STRUGGLE"
     ],
+    "level25CP": 1565,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 17216,
+    "gender": "M"
+  },
+  "throh_shadow": {
+    "dex": 538,
+    "speciesId": "throh_shadow",
+    "speciesName": "Throh (Shadow)",
+    "baseStats": {
+      "atk": 172,
+      "def": 160,
+      "hp": 260
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "LOW_KICK",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "DIG",
+      "EARTHQUAKE",
+      "FIRE_PUNCH",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GRASS_KNOT",
+      "ICE_PUNCH",
+      "LOW_SWEEP",
+      "PAYBACK",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "shadow"
+    ],
     "sid": 17216,
     "gender": "M"
   },
@@ -73004,6 +74376,78 @@
       "SUPER_POWER",
       "THUNDER_PUNCH",
       "STRUGGLE"
+    ],
+    "level25CP": 1714,
+    "tags": [
+      "shadoweligible"
+    ],
+    "sid": 17248,
+    "gender": "M"
+  },
+  "sawk_shadow": {
+    "dex": 539,
+    "speciesId": "sawk_shadow",
+    "speciesName": "Sawk (Shadow)",
+    "baseStats": {
+      "atk": 231,
+      "def": 153,
+      "hp": 181
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "KARATE_CHOP",
+      "LOW_KICK",
+      "POISON_JAB",
+      "ROCK_SMASH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CLOSE_COMBAT",
+      "DIG",
+      "EARTHQUAKE",
+      "FIRE_PUNCH",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GRASS_KNOT",
+      "ICE_PUNCH",
+      "LOW_SWEEP",
+      "PAYBACK",
+      "POWER_UP_PUNCH",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "THUNDER_PUNCH",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "shadow"
     ],
     "sid": 17248,
     "gender": "M"
@@ -78677,6 +80121,7 @@
       "NIGHT_SLASH",
       "STRUGGLE"
     ],
+    "searchPriority": 4,
     "family": {
       "id": "FAMILY_AXEW",
       "parent": "fraxure"
@@ -80087,7 +81532,7 @@
       "id": "FAMILY_RUFFLET",
       "parent": "rufflet"
     },
-    "sid": 20096,
+    "sid": 20097,
     "gender": "M"
   },
   "vullaby": {
@@ -83178,6 +84623,7 @@
       "WATER_PULSE",
       "STRUGGLE"
     ],
+    "searchPriority": 4,
     "family": {
       "id": "FAMILY_FROAKIE",
       "parent": "frogadier"
@@ -86309,9 +87755,7 @@
       "STONE_EDGE",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
+    "searchPriority": 3,
     "sid": 22496,
     "gender": "N"
   },
@@ -87503,7 +88947,7 @@
       "id": "FAMILY_BERGMITE",
       "parent": "bergmite"
     },
-    "sid": 22816,
+    "sid": 22817,
     "gender": "male"
   },
   "noibat": {
@@ -87723,6 +89167,7 @@
     "tags": [
       "legendary"
     ],
+    "searchPriority": 4,
     "sid": 22913,
     "gender": "N"
   },
@@ -87796,9 +89241,80 @@
     "sid": 22944,
     "gender": "N"
   },
+  "zygarde_10": {
+    "dex": 718,
+    "speciesName": "Zygarde (10% Forme)",
+    "speciesId": "zygarde_10",
+    "baseStats": {
+      "atk": 205,
+      "def": 173,
+      "hp": 144
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "BITE",
+      "DRAGON_TAIL",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "IRON_TAIL",
+      "ROCK_SMASH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "DRAGON_PULSE",
+      "OUTRAGE",
+      "BODY_SLAM",
+      "BRICK_BREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DRACO_METEOR",
+      "EARTH_POWER",
+      "EARTHQUAKE",
+      "FOCUS_BLAST",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GRASS_KNOT",
+      "HYPER_BEAM",
+      "PAYBACK",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "SLUDGE_WAVE",
+      "STONE_EDGE",
+      "SUPER_POWER",
+      "SWIFT",
+      "STRUGGLE"
+    ],
+    "levelFloor": 15,
+    "tags": [
+      "legendary"
+    ],
+    "sid": null,
+    "gender": "N"
+  },
   "zygarde": {
     "dex": 718,
-    "speciesName": "Zygarde",
+    "speciesName": "Zygarde (50% Forme)",
     "speciesId": "zygarde",
     "baseStats": {
       "atk": 203,
@@ -87860,11 +89376,43 @@
       "SWIFT",
       "STRUGGLE"
     ],
+    "levelFloor": 15,
     "tags": [
-      "legendary",
-      "unreleased"
+      "legendary"
     ],
     "sid": 22976,
+    "gender": "N"
+  },
+  "zygarde_complete": {
+    "dex": 718,
+    "speciesName": "Zygarde (Complete Forme)",
+    "speciesId": "zygarde_complete",
+    "baseStats": {
+      "atk": 184,
+      "def": 207,
+      "hp": 389
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "BITE",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "EARTHQUAKE",
+      "CRUNCH",
+      "HYPER_BEAM",
+      "BULLDOZE"
+    ],
+    "levelFloor": 15,
+    "tags": [
+      "legendary"
+    ],
+    "sid": 22980,
     "gender": "N"
   },
   "diancie": {
@@ -87927,9 +89475,77 @@
       "STRUGGLE"
     ],
     "tags": [
-      "unreleased"
+      "mythical",
+      "untradeable"
     ],
     "sid": 23008,
+    "gender": "N"
+  },
+  "diancie_mega": {
+    "dex": 719,
+    "speciesName": "Diancie (Mega)",
+    "speciesId": "diancie_mega",
+    "baseStats": {
+      "atk": 342,
+      "def": 235,
+      "hp": 137
+    },
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "fastMoves": [
+      "CHARM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_NORMAL",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
+      "ROCK_THROW",
+      "SMACK_DOWN",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "DAZZLING_GLEAM",
+      "DRAINING_KISS",
+      "EARTH_POWER",
+      "FRUSTRATION",
+      "GIGA_IMPACT",
+      "GYRO_BALL",
+      "HYPER_BEAM",
+      "LAST_RESORT",
+      "MOONBLAST",
+      "PLAY_ROUGH",
+      "POWER_GEM",
+      "PSYCHIC",
+      "PSYSHOCK",
+      "REST",
+      "RETURN",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "STRUGGLE"
+    ],
+    "tags": [
+      "mythical",
+      "untradeable",
+      "mega"
+    ],
+    "sid": 23009,
     "gender": "N"
   },
   "hoopa": {
@@ -91609,9 +93225,6 @@
       "SUPER_POWER",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24512,
     "gender": "male"
   },
@@ -91815,9 +93428,6 @@
         "palossand"
       ]
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24608,
     "gender": "male"
   },
@@ -91882,9 +93492,6 @@
       "id": "FAMILY_SANDYGAST",
       "parent": "sandygast"
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24640,
     "gender": "male"
   },
@@ -93603,9 +95210,6 @@
       "SUPER_POWER",
       "STRUGGLE"
     ],
-    "tags": [
-      "unreleased"
-    ],
     "sid": 24800,
     "gender": "male"
   },
@@ -93676,9 +95280,6 @@
       "SOLAR_BEAM",
       "STONE_EDGE",
       "STRUGGLE"
-    ],
-    "tags": [
-      "unreleased"
     ],
     "sid": 24832,
     "gender": "male"
@@ -94819,7 +96420,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25376,
     "gender": "N"
@@ -94888,7 +96490,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25408,
     "gender": "N"
@@ -94953,7 +96556,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25440,
     "gender": "N"
@@ -95016,7 +96620,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25472,
     "gender": "N"
@@ -95088,7 +96693,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "sid": 25504,
     "gender": "N"
@@ -95148,6 +96754,7 @@
     ],
     "tags": [
       "legendary",
+      "ultrabeast",
       "include1500"
     ],
     "levelFloor": 15,
@@ -95226,7 +96833,8 @@
       "STRUGGLE"
     ],
     "tags": [
-      "legendary"
+      "legendary",
+      "ultrabeast"
     ],
     "searchPriority": 4,
     "levelFloor": 20,
@@ -95304,6 +96912,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25600,
@@ -95380,6 +96990,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25602,
@@ -95456,6 +97068,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25601,
@@ -95532,6 +97146,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25603,
@@ -95657,15 +97273,17 @@
       "SLUDGE_WAVE",
       "STRUGGLE"
     ],
+    "tags": [
+      "legendary",
+      "ultrabeast",
+      "unreleased"
+    ],
     "family": {
       "id": "FAMILY_POIPOLE",
       "evolutions": [
         "naganadel"
       ]
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 25696,
     "gender": "N"
   },
@@ -95740,13 +97358,15 @@
       "X_SCISSOR",
       "STRUGGLE"
     ],
+    "tags": [
+      "legendary",
+      "ultrabeast",
+      "unreleased"
+    ],
     "family": {
       "id": "FAMILY_POIPOLE",
       "parent": "poipole"
     },
-    "tags": [
-      "unreleased"
-    ],
     "sid": 25728,
     "gender": "N"
   },
@@ -95809,6 +97429,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25760,
@@ -95878,6 +97500,8 @@
       "STRUGGLE"
     ],
     "tags": [
+      "legendary",
+      "ultrabeast",
       "unreleased"
     ],
     "sid": 25792,
@@ -101114,7 +102738,8 @@
     "chargedMoves": [
       "X_SCISSOR",
       "ROCK_SLIDE",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "TRAILBLAZE"
     ],
     "levelFloor": 20,
     "family": {
@@ -101145,7 +102770,9 @@
       "FIRE_PUNCH",
       "THUNDER_PUNCH",
       "AERIAL_ACE",
-      "HIGH_HORSEPOWER"
+      "HIGH_HORSEPOWER",
+      "ICE_PUNCH",
+      "TRAILBLAZE"
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
@@ -101182,7 +102809,9 @@
       "FIRE_PUNCH",
       "THUNDER_PUNCH",
       "AERIAL_ACE",
-      "HIGH_HORSEPOWER"
+      "HIGH_HORSEPOWER",
+      "ICE_PUNCH",
+      "TRAILBLAZE"
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
@@ -101259,6 +102888,3373 @@
     "sid": 28928,
     "gender": "male"
   },
+  "sprigatito": {
+    "dex": 906,
+    "speciesName": "Sprigatito",
+    "speciesId": "sprigatito",
+    "baseStats": {
+      "atk": 116,
+      "def": 99,
+      "hp": 120
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "LEAFAGE",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "PLAY_ROUGH",
+      "ENERGY_BALL"
+    ],
+    "family": {
+      "id": "FAMILY_SPRIGATITO",
+      "evolutions": [
+        "floragato"
+      ]
+    },
+    "sid": 28992,
+    "gender": "male"
+  },
+  "floragato": {
+    "dex": 907,
+    "speciesName": "Floragato",
+    "speciesId": "floragato",
+    "baseStats": {
+      "atk": 157,
+      "def": 128,
+      "hp": 156
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "LEAFAGE",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "PLAY_ROUGH",
+      "ENERGY_BALL"
+    ],
+    "family": {
+      "id": "FAMILY_SPRIGATITO",
+      "parent": "sprigatito",
+      "evolutions": [
+        "meowscarada"
+      ]
+    },
+    "sid": 29024,
+    "gender": "male"
+  },
+  "meowscarada": {
+    "dex": 908,
+    "speciesName": "Meowscarada",
+    "speciesId": "meowscarada",
+    "baseStats": {
+      "atk": 233,
+      "def": 153,
+      "hp": 183
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "fastMoves": [
+      "LEAFAGE",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "PLAY_ROUGH",
+      "ENERGY_BALL",
+      "NIGHT_SLASH"
+    ],
+    "family": {
+      "id": "FAMILY_SPRIGATITO",
+      "parent": "floragato"
+    },
+    "sid": 29056,
+    "gender": "male"
+  },
+  "fuecoco": {
+    "dex": 909,
+    "speciesName": "Fuecoco",
+    "speciesId": "fuecoco",
+    "baseStats": {
+      "atk": 112,
+      "def": 96,
+      "hp": 167
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "INCINERATE",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "FLAMETHROWER",
+      "DISARMING_VOICE",
+      "CRUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_FUECOCO",
+      "evolutions": [
+        "crocalor"
+      ]
+    },
+    "sid": 29088,
+    "gender": "male"
+  },
+  "crocalor": {
+    "dex": 910,
+    "speciesName": "Crocalor",
+    "speciesId": "crocalor",
+    "baseStats": {
+      "atk": 162,
+      "def": 134,
+      "hp": 191
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "INCINERATE",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "FLAMETHROWER",
+      "DISARMING_VOICE",
+      "CRUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_FUECOCO",
+      "parent": "fuecoco",
+      "evolutions": [
+        "skeledirge"
+      ]
+    },
+    "sid": 29120,
+    "gender": "male"
+  },
+  "skeledirge": {
+    "dex": 911,
+    "speciesName": "Skeledirge",
+    "speciesId": "skeledirge",
+    "baseStats": {
+      "atk": 207,
+      "def": 178,
+      "hp": 232
+    },
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "fastMoves": [
+      "INCINERATE",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "FLAMETHROWER",
+      "DISARMING_VOICE",
+      "CRUNCH",
+      "SHADOW_BALL"
+    ],
+    "family": {
+      "id": "FAMILY_FUECOCO",
+      "parent": "crocalor"
+    },
+    "sid": 29152,
+    "gender": "male"
+  },
+  "quaxly": {
+    "dex": 912,
+    "speciesName": "Quaxly",
+    "speciesId": "quaxly",
+    "baseStats": {
+      "atk": 120,
+      "def": 86,
+      "hp": 146
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATER_GUN",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "AERIAL_ACE",
+      "LIQUIDATION"
+    ],
+    "family": {
+      "id": "FAMILY_QUAXLY",
+      "evolutions": [
+        "quaxwell"
+      ]
+    },
+    "sid": 29184,
+    "gender": "male"
+  },
+  "quaxwell": {
+    "dex": 913,
+    "speciesName": "Quaxwell",
+    "speciesId": "quaxwell",
+    "baseStats": {
+      "atk": 162,
+      "def": 123,
+      "hp": 172
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATER_GUN",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "AERIAL_ACE",
+      "LIQUIDATION"
+    ],
+    "family": {
+      "id": "FAMILY_QUAXLY",
+      "parent": "quaxly",
+      "evolutions": [
+        "quaquaval"
+      ]
+    },
+    "sid": 29216,
+    "gender": "male"
+  },
+  "quaquaval": {
+    "dex": 914,
+    "speciesName": "Quaquaval",
+    "speciesId": "quaquaval",
+    "baseStats": {
+      "atk": 236,
+      "def": 159,
+      "hp": 198
+    },
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "fastMoves": [
+      "WATER_GUN",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "AERIAL_ACE",
+      "LIQUIDATION",
+      "CLOSE_COMBAT"
+    ],
+    "family": {
+      "id": "FAMILY_QUAXLY",
+      "parent": "quaxwell"
+    },
+    "sid": 29248,
+    "gender": "male"
+  },
+  "lechonk": {
+    "dex": 915,
+    "speciesName": "Lechonk",
+    "speciesId": "lechonk",
+    "baseStats": {
+      "atk": 81,
+      "def": 79,
+      "hp": 144
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "BODY_SLAM",
+      "TRAILBLAZE"
+    ],
+    "family": {
+      "id": "FAMILY_LECHONK",
+      "evolutions": [
+        "oinkologne",
+        "oinkologne"
+      ]
+    },
+    "sid": 29280,
+    "gender": "male"
+  },
+  "oinkologne": {
+    "dex": 916,
+    "speciesName": "Oinkologne",
+    "speciesId": "oinkologne",
+    "baseStats": {
+      "atk": 186,
+      "def": 153,
+      "hp": 242
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "BODY_SLAM",
+      "TRAILBLAZE"
+    ],
+    "family": {
+      "id": "FAMILY_LECHONK",
+      "parent": "lechonk"
+    },
+    "sid": 29312,
+    "gender": "male"
+  },
+  "oinkologne_female": {
+    "dex": 916,
+    "speciesName": "Oinkologne (Female)",
+    "speciesId": "oinkologne_female",
+    "baseStats": {
+      "atk": 169,
+      "def": 162,
+      "hp": 251
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "BODY_SLAM",
+      "TRAILBLAZE"
+    ],
+    "searchPriority": 2,
+    "family": {
+      "id": "FAMILY_LECHONK",
+      "parent": "lechonk"
+    },
+    "sid": 29313,
+    "gender": "male"
+  },
+  "tarountula": {
+    "dex": 917,
+    "speciesName": "Tarountula",
+    "speciesId": "tarountula",
+    "baseStats": {
+      "atk": 70,
+      "def": 77,
+      "hp": 111
+    },
+    "types": [
+      "bug",
+      "none"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "STRUGGLE_BUG"
+    ],
+    "chargedMoves": [
+      "X_SCISSOR",
+      "GRASS_KNOT",
+      "LUNGE"
+    ],
+    "family": {
+      "id": "FAMILY_TAROUNTULA",
+      "evolutions": [
+        "spidops"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29344,
+    "gender": "male"
+  },
+  "spidops": {
+    "dex": 918,
+    "speciesName": "Spidops",
+    "speciesId": "spidops",
+    "baseStats": {
+      "atk": 139,
+      "def": 166,
+      "hp": 155
+    },
+    "types": [
+      "bug",
+      "none"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "X_SCISSOR",
+      "GRASS_KNOT",
+      "LUNGE",
+      "ROCK_TOMB"
+    ],
+    "family": {
+      "id": "FAMILY_TAROUNTULA",
+      "parent": "tarountula"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29376,
+    "gender": "male"
+  },
+  "nymble": {
+    "dex": 919,
+    "speciesName": "Nymble",
+    "speciesId": "nymble",
+    "baseStats": {
+      "atk": 81,
+      "def": 65,
+      "hp": 107
+    },
+    "types": [
+      "bug",
+      "none"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "STRUGGLE_BUG"
+    ],
+    "chargedMoves": [
+      "X_SCISSOR",
+      "BUG_BUZZ"
+    ],
+    "family": {
+      "id": "FAMILY_NYMBLE",
+      "evolutions": [
+        "lokix"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29408,
+    "gender": "male"
+  },
+  "lokix": {
+    "dex": 920,
+    "speciesName": "Lokix",
+    "speciesId": "lokix",
+    "baseStats": {
+      "atk": 199,
+      "def": 144,
+      "hp": 174
+    },
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "X_SCISSOR",
+      "BUG_BUZZ",
+      "DARK_PULSE"
+    ],
+    "family": {
+      "id": "FAMILY_NYMBLE",
+      "parent": "nymble"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29440,
+    "gender": "male"
+  },
+  "pawmi": {
+    "dex": 921,
+    "speciesName": "Pawmi",
+    "speciesId": "pawmi",
+    "baseStats": {
+      "atk": 95,
+      "def": 45,
+      "hp": 128
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "SPARK",
+      "CHARGE_BEAM"
+    ],
+    "chargedMoves": [
+      "THUNDERBOLT",
+      "DISCHARGE",
+      "WILD_CHARGE"
+    ],
+    "family": {
+      "id": "FAMILY_PAWMI",
+      "evolutions": [
+        "pawmo"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29472,
+    "gender": "male"
+  },
+  "pawmo": {
+    "dex": 922,
+    "speciesName": "Pawmo",
+    "speciesId": "pawmo",
+    "baseStats": {
+      "atk": 147,
+      "def": 82,
+      "hp": 155
+    },
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "fastMoves": [
+      "SPARK",
+      "CHARGE_BEAM"
+    ],
+    "chargedMoves": [
+      "THUNDERBOLT",
+      "DISCHARGE",
+      "WILD_CHARGE"
+    ],
+    "family": {
+      "id": "FAMILY_PAWMI",
+      "parent": "pawmi",
+      "evolutions": [
+        "pawmot"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29504,
+    "gender": "male"
+  },
+  "pawmot": {
+    "dex": 923,
+    "speciesName": "Pawmot",
+    "speciesId": "pawmot",
+    "baseStats": {
+      "atk": 232,
+      "def": 141,
+      "hp": 172
+    },
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "fastMoves": [
+      "SPARK",
+      "CHARGE_BEAM",
+      "LOW_KICK"
+    ],
+    "chargedMoves": [
+      "THUNDERBOLT",
+      "DISCHARGE",
+      "WILD_CHARGE",
+      "CLOSE_COMBAT"
+    ],
+    "family": {
+      "id": "FAMILY_PAWMI",
+      "parent": "pawmo"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29536,
+    "gender": "male"
+  },
+  "tandemaus": {
+    "dex": 924,
+    "speciesName": "Tandemaus",
+    "speciesId": "tandemaus",
+    "baseStats": {
+      "atk": 98,
+      "def": 90,
+      "hp": 137
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "MUD_SHOT",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_TANDEMAUS",
+      "evolutions": [
+        "maushold",
+        "maushold"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29568,
+    "gender": "male"
+  },
+  "maushold": {
+    "dex": 925,
+    "speciesName": "Maushold",
+    "speciesId": "maushold",
+    "baseStats": {
+      "atk": 159,
+      "def": 157,
+      "hp": 179
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "MUD_SHOT",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_TANDEMAUS",
+      "parent": "tandemaus"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29600,
+    "gender": "male"
+  },
+  "maushold_family_of_four": {
+    "dex": 925,
+    "speciesName": "Maushold_family_of_four",
+    "speciesId": "maushold_family_of_four",
+    "baseStats": {
+      "atk": 159,
+      "def": 157,
+      "hp": 179
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "MUD_SHOT",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_TANDEMAUS",
+      "parent": "tandemaus"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "maushold_family_of_three": {
+    "dex": 925,
+    "speciesName": "Maushold_family_of_three",
+    "speciesId": "maushold_family_of_three",
+    "baseStats": {
+      "atk": 159,
+      "def": 157,
+      "hp": 179
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "MUD_SHOT",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_TANDEMAUS",
+      "parent": "tandemaus"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "fidough": {
+    "dex": 926,
+    "speciesName": "Fidough",
+    "speciesId": "fidough",
+    "baseStats": {
+      "atk": 102,
+      "def": 126,
+      "hp": 114
+    },
+    "types": [
+      "fairy",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARM",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "PLAY_ROUGH",
+      "PSYCHIC_FANGS"
+    ],
+    "family": {
+      "id": "FAMILY_FIDOUGH",
+      "evolutions": [
+        "dachsbun"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29632,
+    "gender": "male"
+  },
+  "dachsbun": {
+    "dex": 927,
+    "speciesName": "Dachsbun",
+    "speciesId": "dachsbun",
+    "baseStats": {
+      "atk": 159,
+      "def": 212,
+      "hp": 149
+    },
+    "types": [
+      "fairy",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARM",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "PLAY_ROUGH",
+      "PSYCHIC_FANGS"
+    ],
+    "family": {
+      "id": "FAMILY_FIDOUGH",
+      "parent": "fidough"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29664,
+    "gender": "male"
+  },
+  "smoliv": {
+    "dex": 928,
+    "speciesName": "Smoliv",
+    "speciesId": "smoliv",
+    "baseStats": {
+      "atk": 100,
+      "def": 89,
+      "hp": 121
+    },
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "fastMoves": [
+      "RAZOR_LEAF",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "EARTH_POWER"
+    ],
+    "family": {
+      "id": "FAMILY_SMOLIV",
+      "evolutions": [
+        "dolliv"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29696,
+    "gender": "male"
+  },
+  "dolliv": {
+    "dex": 929,
+    "speciesName": "Dolliv",
+    "speciesId": "dolliv",
+    "baseStats": {
+      "atk": 137,
+      "def": 131,
+      "hp": 141
+    },
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "fastMoves": [
+      "RAZOR_LEAF",
+      "TACKLE",
+      "MAGICAL_LEAF"
+    ],
+    "chargedMoves": [
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "EARTH_POWER"
+    ],
+    "family": {
+      "id": "FAMILY_SMOLIV",
+      "parent": "smoliv",
+      "evolutions": [
+        "arboliva"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29728,
+    "gender": "male"
+  },
+  "arboliva": {
+    "dex": 930,
+    "speciesName": "Arboliva",
+    "speciesId": "arboliva",
+    "baseStats": {
+      "atk": 219,
+      "def": 189,
+      "hp": 186
+    },
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "fastMoves": [
+      "RAZOR_LEAF",
+      "TACKLE",
+      "MAGICAL_LEAF"
+    ],
+    "chargedMoves": [
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "EARTH_POWER"
+    ],
+    "family": {
+      "id": "FAMILY_SMOLIV",
+      "parent": "dolliv"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29760,
+    "gender": "male"
+  },
+  "squawkabilly": {
+    "dex": 931,
+    "speciesName": "Squawkabilly",
+    "speciesId": "squawkabilly",
+    "baseStats": {
+      "atk": 185,
+      "def": 105,
+      "hp": 193
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "fastMoves": [
+      "PECK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29792,
+    "gender": "male"
+  },
+  "squawkabilly_blue": {
+    "dex": 931,
+    "speciesName": "Squawkabilly_blue",
+    "speciesId": "squawkabilly_blue",
+    "baseStats": {
+      "atk": 185,
+      "def": 105,
+      "hp": 193
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "fastMoves": [
+      "PECK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29793,
+    "gender": "male"
+  },
+  "squawkabilly_green": {
+    "dex": 931,
+    "speciesName": "Squawkabilly_green",
+    "speciesId": "squawkabilly_green",
+    "baseStats": {
+      "atk": 185,
+      "def": 105,
+      "hp": 193
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "fastMoves": [
+      "PECK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "squawkabilly_white": {
+    "dex": 931,
+    "speciesName": "Squawkabilly_white",
+    "speciesId": "squawkabilly_white",
+    "baseStats": {
+      "atk": 185,
+      "def": 105,
+      "hp": 193
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "fastMoves": [
+      "PECK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29795,
+    "gender": "male"
+  },
+  "squawkabilly_yellow": {
+    "dex": 931,
+    "speciesName": "Squawkabilly_yellow",
+    "speciesId": "squawkabilly_yellow",
+    "baseStats": {
+      "atk": 185,
+      "def": 105,
+      "hp": 193
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "fastMoves": [
+      "PECK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29794,
+    "gender": "male"
+  },
+  "nacli": {
+    "dex": 932,
+    "speciesName": "Nacli",
+    "speciesId": "nacli",
+    "baseStats": {
+      "atk": 95,
+      "def": 108,
+      "hp": 146
+    },
+    "types": [
+      "rock",
+      "none"
+    ],
+    "fastMoves": [
+      "ROCK_THROW",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "ROCK_BLAST",
+      "ROCK_TOMB",
+      "ANCIENT_POWER"
+    ],
+    "family": {
+      "id": "FAMILY_NACLI",
+      "evolutions": [
+        "naclstack"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29824,
+    "gender": "male"
+  },
+  "naclstack": {
+    "dex": 933,
+    "speciesName": "Naclstack",
+    "speciesId": "naclstack",
+    "baseStats": {
+      "atk": 105,
+      "def": 160,
+      "hp": 155
+    },
+    "types": [
+      "rock",
+      "none"
+    ],
+    "fastMoves": [
+      "SMACK_DOWN",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "ROCK_BLAST",
+      "ROCK_TOMB",
+      "ANCIENT_POWER"
+    ],
+    "family": {
+      "id": "FAMILY_NACLI",
+      "parent": "nacli",
+      "evolutions": [
+        "garganacl"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29856,
+    "gender": "male"
+  },
+  "garganacl": {
+    "dex": 934,
+    "speciesName": "Garganacl",
+    "speciesId": "garganacl",
+    "baseStats": {
+      "atk": 171,
+      "def": 212,
+      "hp": 225
+    },
+    "types": [
+      "rock",
+      "none"
+    ],
+    "fastMoves": [
+      "SMACK_DOWN",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "ANCIENT_POWER"
+    ],
+    "family": {
+      "id": "FAMILY_NACLI",
+      "parent": "naclstack"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29888,
+    "gender": "male"
+  },
+  "charcadet": {
+    "dex": 935,
+    "speciesName": "Charcadet",
+    "speciesId": "charcadet",
+    "baseStats": {
+      "atk": 92,
+      "def": 74,
+      "hp": 120
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "INCINERATE"
+    ],
+    "chargedMoves": [
+      "FLAME_CHARGE",
+      "HEAT_WAVE",
+      "FLAMETHROWER"
+    ],
+    "family": {
+      "id": "FAMILY_CHARCADET",
+      "evolutions": [
+        "armarouge",
+        "ceruledge"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29920,
+    "gender": "male"
+  },
+  "armarouge": {
+    "dex": 936,
+    "speciesName": "Armarouge",
+    "speciesId": "armarouge",
+    "baseStats": {
+      "atk": 234,
+      "def": 185,
+      "hp": 198
+    },
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "INCINERATE"
+    ],
+    "chargedMoves": [
+      "FLAME_CHARGE",
+      "HEAT_WAVE",
+      "FLAMETHROWER",
+      "PSYSHOCK"
+    ],
+    "family": {
+      "id": "FAMILY_CHARCADET",
+      "parent": "charcadet"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29952,
+    "gender": "male"
+  },
+  "ceruledge": {
+    "dex": 937,
+    "speciesName": "Ceruledge",
+    "speciesId": "ceruledge",
+    "baseStats": {
+      "atk": 239,
+      "def": 189,
+      "hp": 181
+    },
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "INCINERATE"
+    ],
+    "chargedMoves": [
+      "FLAME_CHARGE",
+      "HEAT_WAVE",
+      "FLAMETHROWER",
+      "SHADOW_BALL"
+    ],
+    "family": {
+      "id": "FAMILY_CHARCADET",
+      "parent": "charcadet"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 29984,
+    "gender": "male"
+  },
+  "tadbulb": {
+    "dex": 938,
+    "speciesName": "Tadbulb",
+    "speciesId": "tadbulb",
+    "baseStats": {
+      "atk": 104,
+      "def": 73,
+      "hp": 156
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "PARABOLIC_CHARGE",
+      "DISCHARGE",
+      "ZAP_CANNON"
+    ],
+    "family": {
+      "id": "FAMILY_TADBULB",
+      "evolutions": [
+        "bellibolt"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30016,
+    "gender": "male"
+  },
+  "bellibolt": {
+    "dex": 939,
+    "speciesName": "Bellibolt",
+    "speciesId": "bellibolt",
+    "baseStats": {
+      "atk": 184,
+      "def": 165,
+      "hp": 240
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "PARABOLIC_CHARGE",
+      "DISCHARGE",
+      "ZAP_CANNON"
+    ],
+    "family": {
+      "id": "FAMILY_TADBULB",
+      "parent": "tadbulb"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30048,
+    "gender": "male"
+  },
+  "wattrel": {
+    "dex": 940,
+    "speciesName": "Wattrel",
+    "speciesId": "wattrel",
+    "baseStats": {
+      "atk": 105,
+      "def": 75,
+      "hp": 120
+    },
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "PECK"
+    ],
+    "chargedMoves": [
+      "ACROBATICS",
+      "AERIAL_ACE",
+      "THUNDERBOLT"
+    ],
+    "family": {
+      "id": "FAMILY_WATTREL",
+      "evolutions": [
+        "kilowattrel"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30080,
+    "gender": "male"
+  },
+  "kilowattrel": {
+    "dex": 941,
+    "speciesName": "Kilowattrel",
+    "speciesId": "kilowattrel",
+    "baseStats": {
+      "atk": 221,
+      "def": 132,
+      "hp": 172
+    },
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "ACROBATICS",
+      "AERIAL_ACE",
+      "THUNDERBOLT"
+    ],
+    "family": {
+      "id": "FAMILY_WATTREL",
+      "parent": "wattrel"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30112,
+    "gender": "male"
+  },
+  "maschiff": {
+    "dex": 942,
+    "speciesName": "Maschiff",
+    "speciesId": "maschiff",
+    "baseStats": {
+      "atk": 140,
+      "def": 108,
+      "hp": 155
+    },
+    "types": [
+      "dark",
+      "none"
+    ],
+    "fastMoves": [
+      "SNARL",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "PAYBACK",
+      "DIG"
+    ],
+    "family": {
+      "id": "FAMILY_MASCHIFF",
+      "evolutions": [
+        "mabosstiff"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30144,
+    "gender": "male"
+  },
+  "mabosstiff": {
+    "dex": 943,
+    "speciesName": "Mabosstiff",
+    "speciesId": "mabosstiff",
+    "baseStats": {
+      "atk": 230,
+      "def": 168,
+      "hp": 190
+    },
+    "types": [
+      "dark",
+      "none"
+    ],
+    "fastMoves": [
+      "SNARL",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "PAYBACK",
+      "DIG"
+    ],
+    "family": {
+      "id": "FAMILY_MASCHIFF",
+      "parent": "maschiff"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30176,
+    "gender": "male"
+  },
+  "shroodle": {
+    "dex": 944,
+    "speciesName": "Shroodle",
+    "speciesId": "shroodle",
+    "baseStats": {
+      "atk": 124,
+      "def": 70,
+      "hp": 120
+    },
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "ACID_SPRAY",
+      "POISON_FANG",
+      "SLUDGE_BOMB"
+    ],
+    "family": {
+      "id": "FAMILY_SHROODLE",
+      "evolutions": [
+        "grafaiai"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30208,
+    "gender": "male"
+  },
+  "grafaiai": {
+    "dex": 945,
+    "speciesName": "Grafaiai",
+    "speciesId": "grafaiai",
+    "baseStats": {
+      "atk": 199,
+      "def": 149,
+      "hp": 160
+    },
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "ACID_SPRAY",
+      "POISON_FANG",
+      "SLUDGE_BOMB"
+    ],
+    "family": {
+      "id": "FAMILY_SHROODLE",
+      "parent": "shroodle"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30240,
+    "gender": "male"
+  },
+  "bramblin": {
+    "dex": 946,
+    "speciesName": "Bramblin",
+    "speciesId": "bramblin",
+    "baseStats": {
+      "atk": 121,
+      "def": 64,
+      "hp": 120
+    },
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "SHADOW_SNEAK",
+      "NIGHT_SHADE",
+      "POWER_WHIP"
+    ],
+    "family": {
+      "id": "FAMILY_BRAMBLIN",
+      "evolutions": [
+        "brambleghast"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30272,
+    "gender": "male"
+  },
+  "brambleghast": {
+    "dex": 947,
+    "speciesName": "Brambleghast",
+    "speciesId": "brambleghast",
+    "baseStats": {
+      "atk": 228,
+      "def": 144,
+      "hp": 146
+    },
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "fastMoves": [
+      "HEX",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "SHADOW_SNEAK",
+      "NIGHT_SHADE",
+      "POWER_WHIP"
+    ],
+    "family": {
+      "id": "FAMILY_BRAMBLIN",
+      "parent": "bramblin"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30304,
+    "gender": "male"
+  },
+  "toedscool": {
+    "dex": 948,
+    "speciesName": "Toedscool",
+    "speciesId": "toedscool",
+    "baseStats": {
+      "atk": 97,
+      "def": 149,
+      "hp": 120
+    },
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "EARTH_POWER",
+      "SEED_BOMB",
+      "WRAP"
+    ],
+    "family": {
+      "id": "FAMILY_TOEDSCOOL",
+      "evolutions": [
+        "toedscruel"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30336,
+    "gender": "male"
+  },
+  "toedscruel": {
+    "dex": 949,
+    "speciesName": "Toedscruel",
+    "speciesId": "toedscruel",
+    "baseStats": {
+      "atk": 166,
+      "def": 209,
+      "hp": 190
+    },
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "EARTH_POWER",
+      "SEED_BOMB",
+      "ACID_SPRAY"
+    ],
+    "family": {
+      "id": "FAMILY_TOEDSCOOL",
+      "parent": "toedscool"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30368,
+    "gender": "male"
+  },
+  "klawf": {
+    "dex": 950,
+    "speciesName": "Klawf",
+    "speciesId": "klawf",
+    "baseStats": {
+      "atk": 184,
+      "def": 185,
+      "hp": 172
+    },
+    "types": [
+      "rock",
+      "none"
+    ],
+    "fastMoves": [
+      "ROCK_THROW",
+      "MUD_SLAP"
+    ],
+    "chargedMoves": [
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "BULLDOZE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30400,
+    "gender": "male"
+  },
+  "capsakid": {
+    "dex": 951,
+    "speciesName": "Capsakid",
+    "speciesId": "capsakid",
+    "baseStats": {
+      "atk": 118,
+      "def": 76,
+      "hp": 137
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "LEAFAGE",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "LEAF_STORM",
+      "GRASS_KNOT",
+      "SEED_BOMB"
+    ],
+    "family": {
+      "id": "FAMILY_CAPSAKID",
+      "evolutions": [
+        "scovillain"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30432,
+    "gender": "male"
+  },
+  "scovillain": {
+    "dex": 952,
+    "speciesName": "Scovillain",
+    "speciesId": "scovillain",
+    "baseStats": {
+      "atk": 216,
+      "def": 130,
+      "hp": 163
+    },
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "fastMoves": [
+      "LEAFAGE",
+      "FIRE_FANG"
+    ],
+    "chargedMoves": [
+      "LEAF_STORM",
+      "GRASS_KNOT",
+      "OVERHEAT",
+      "FLAMETHROWER"
+    ],
+    "family": {
+      "id": "FAMILY_CAPSAKID",
+      "parent": "capsakid"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30464,
+    "gender": "male"
+  },
+  "rellor": {
+    "dex": 953,
+    "speciesName": "Rellor",
+    "speciesId": "rellor",
+    "baseStats": {
+      "atk": 86,
+      "def": 108,
+      "hp": 121
+    },
+    "types": [
+      "bug",
+      "none"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "STRUGGLE_BUG"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "BUG_BUZZ",
+      "LUNGE"
+    ],
+    "family": {
+      "id": "FAMILY_RELLOR",
+      "evolutions": [
+        "rabsca"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30496,
+    "gender": "male"
+  },
+  "rabsca": {
+    "dex": 954,
+    "speciesName": "Rabsca",
+    "speciesId": "rabsca",
+    "baseStats": {
+      "atk": 201,
+      "def": 178,
+      "hp": 181
+    },
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "BUG_BUZZ",
+      "LUNGE",
+      "PSYBEAM"
+    ],
+    "family": {
+      "id": "FAMILY_RELLOR",
+      "parent": "rellor"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30528,
+    "gender": "male"
+  },
+  "flittle": {
+    "dex": 955,
+    "speciesName": "Flittle",
+    "speciesId": "flittle",
+    "baseStats": {
+      "atk": 105,
+      "def": 60,
+      "hp": 102
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "PECK",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "PSYBEAM",
+      "PSYSHOCK",
+      "PSYCHIC"
+    ],
+    "family": {
+      "id": "FAMILY_FLITTLE",
+      "evolutions": [
+        "espathra"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30560,
+    "gender": "male"
+  },
+  "espathra": {
+    "dex": 956,
+    "speciesName": "Espathra",
+    "speciesId": "espathra",
+    "baseStats": {
+      "atk": 204,
+      "def": 127,
+      "hp": 216
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "PECK",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "PSYBEAM",
+      "PSYSHOCK",
+      "PSYCHIC"
+    ],
+    "family": {
+      "id": "FAMILY_FLITTLE",
+      "parent": "flittle"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30592,
+    "gender": "male"
+  },
+  "tinkatink": {
+    "dex": 957,
+    "speciesName": "Tinkatink",
+    "speciesId": "tinkatink",
+    "baseStats": {
+      "atk": 85,
+      "def": 110,
+      "hp": 137
+    },
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "fastMoves": [
+      "FAIRY_WIND",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "PLAY_ROUGH",
+      "BRUTAL_SWING",
+      "FLASH_CANNON"
+    ],
+    "family": {
+      "id": "FAMILY_TINKATINK",
+      "evolutions": [
+        "tinkatuff"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30624,
+    "gender": "male"
+  },
+  "tinkatuff": {
+    "dex": 958,
+    "speciesName": "Tinkatuff",
+    "speciesId": "tinkatuff",
+    "baseStats": {
+      "atk": 109,
+      "def": 145,
+      "hp": 163
+    },
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "fastMoves": [
+      "FAIRY_WIND",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "PLAY_ROUGH",
+      "BRUTAL_SWING",
+      "FLASH_CANNON"
+    ],
+    "family": {
+      "id": "FAMILY_TINKATINK",
+      "parent": "tinkatink",
+      "evolutions": [
+        "tinkaton"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30656,
+    "gender": "male"
+  },
+  "tinkaton": {
+    "dex": 959,
+    "speciesName": "Tinkaton",
+    "speciesId": "tinkaton",
+    "baseStats": {
+      "atk": 155,
+      "def": 196,
+      "hp": 198
+    },
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "fastMoves": [
+      "FAIRY_WIND",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "PLAY_ROUGH",
+      "BRUTAL_SWING",
+      "FLASH_CANNON",
+      "HEAVY_SLAM"
+    ],
+    "family": {
+      "id": "FAMILY_TINKATINK",
+      "parent": "tinkatuff"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30688,
+    "gender": "male"
+  },
+  "wiglett": {
+    "dex": 960,
+    "speciesName": "Wiglett",
+    "speciesId": "wiglett",
+    "baseStats": {
+      "atk": 109,
+      "def": 52,
+      "hp": 67
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATER_GUN",
+      "MUD_SLAP"
+    ],
+    "chargedMoves": [
+      "LIQUIDATION",
+      "DIG",
+      "SURF"
+    ],
+    "family": {
+      "id": "FAMILY_WIGLETT",
+      "evolutions": [
+        "wugtrio"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30720,
+    "gender": "male"
+  },
+  "wugtrio": {
+    "dex": 961,
+    "speciesName": "Wugtrio",
+    "speciesId": "wugtrio",
+    "baseStats": {
+      "atk": 205,
+      "def": 136,
+      "hp": 111
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATER_GUN",
+      "MUD_SLAP"
+    ],
+    "chargedMoves": [
+      "LIQUIDATION",
+      "DIG",
+      "SURF"
+    ],
+    "family": {
+      "id": "FAMILY_WIGLETT",
+      "parent": "wiglett"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30752,
+    "gender": "male"
+  },
+  "bombirdier": {
+    "dex": 962,
+    "speciesName": "Bombirdier",
+    "speciesId": "bombirdier",
+    "baseStats": {
+      "atk": 198,
+      "def": 172,
+      "hp": 172
+    },
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "fastMoves": [
+      "WING_ATTACK",
+      "ROCK_THROW"
+    ],
+    "chargedMoves": [
+      "PAYBACK",
+      "AERIAL_ACE",
+      "FLY"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30784,
+    "gender": "male"
+  },
+  "finizen": {
+    "dex": 963,
+    "speciesName": "Finizen",
+    "speciesId": "finizen",
+    "baseStats": {
+      "atk": 90,
+      "def": 80,
+      "hp": 172
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATERFALL",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND"
+    ],
+    "family": {
+      "id": "FAMILY_FINIZEN",
+      "evolutions": [
+        "palafin"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30816,
+    "gender": "male"
+  },
+  "palafin": {
+    "dex": 964,
+    "speciesName": "Palafin",
+    "speciesId": "palafin",
+    "baseStats": {
+      "atk": 143,
+      "def": 144,
+      "hp": 225
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATERFALL",
+      "CHARM",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND",
+      "DRAIN_PUNCH",
+      "ACROBATICS"
+    ],
+    "family": {
+      "id": "FAMILY_FINIZEN",
+      "parent": "finizen"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30848,
+    "gender": "male"
+  },
+  "palafin_hero": {
+    "dex": 964,
+    "speciesName": "Palafin_hero",
+    "speciesId": "palafin_hero",
+    "baseStats": {
+      "atk": 322,
+      "def": 196,
+      "hp": 225
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATERFALL",
+      "CHARM",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND",
+      "DRAIN_PUNCH",
+      "ACROBATICS"
+    ],
+    "family": {
+      "id": "FAMILY_FINIZEN",
+      "parent": "finizen"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30848,
+    "gender": "male"
+  },
+  "palafin_zero": {
+    "dex": 964,
+    "speciesName": "Palafin_zero",
+    "speciesId": "palafin_zero",
+    "baseStats": {
+      "atk": 143,
+      "def": 144,
+      "hp": 225
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATERFALL",
+      "CHARM",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND",
+      "DRAIN_PUNCH",
+      "ACROBATICS"
+    ],
+    "family": {
+      "id": "FAMILY_FINIZEN",
+      "parent": "finizen"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "varoom": {
+    "dex": 965,
+    "speciesName": "Varoom",
+    "speciesId": "varoom",
+    "baseStats": {
+      "atk": 123,
+      "def": 107,
+      "hp": 128
+    },
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "fastMoves": [
+      "LICK",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "ACID_SPRAY",
+      "GUNK_SHOT",
+      "GYRO_BALL"
+    ],
+    "family": {
+      "id": "FAMILY_VAROOM",
+      "evolutions": [
+        "revavroom"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30880,
+    "gender": "male"
+  },
+  "revavroom": {
+    "dex": 966,
+    "speciesName": "Revavroom",
+    "speciesId": "revavroom",
+    "baseStats": {
+      "atk": 229,
+      "def": 168,
+      "hp": 190
+    },
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "fastMoves": [
+      "LICK",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "ACID_SPRAY",
+      "GUNK_SHOT",
+      "GYRO_BALL",
+      "OVERHEAT"
+    ],
+    "family": {
+      "id": "FAMILY_VAROOM",
+      "parent": "varoom"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30912,
+    "gender": "male"
+  },
+  "cyclizar": {
+    "dex": 967,
+    "speciesName": "Cyclizar",
+    "speciesId": "cyclizar",
+    "baseStats": {
+      "atk": 205,
+      "def": 142,
+      "hp": 172
+    },
+    "types": [
+      "dragon",
+      "normal"
+    ],
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "BODY_SLAM"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30944,
+    "gender": "male"
+  },
+  "orthworm": {
+    "dex": 968,
+    "speciesName": "Orthworm",
+    "speciesId": "orthworm",
+    "baseStats": {
+      "atk": 161,
+      "def": 219,
+      "hp": 172
+    },
+    "types": [
+      "steel",
+      "none"
+    ],
+    "fastMoves": [
+      "IRON_TAIL",
+      "MUD_SLAP"
+    ],
+    "chargedMoves": [
+      "ROCK_TOMB",
+      "EARTHQUAKE",
+      "IRON_HEAD"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 30976,
+    "gender": "male"
+  },
+  "glimmet": {
+    "dex": 969,
+    "speciesName": "Glimmet",
+    "speciesId": "glimmet",
+    "baseStats": {
+      "atk": 187,
+      "def": 104,
+      "hp": 134
+    },
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "fastMoves": [
+      "ROCK_THROW",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "ROCK_SLIDE",
+      "SLUDGE_WAVE"
+    ],
+    "family": {
+      "id": "FAMILY_GLIMMET",
+      "evolutions": [
+        "glimmora"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31008,
+    "gender": "male"
+  },
+  "glimmora": {
+    "dex": 970,
+    "speciesName": "Glimmora",
+    "speciesId": "glimmora",
+    "baseStats": {
+      "atk": 246,
+      "def": 177,
+      "hp": 195
+    },
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "fastMoves": [
+      "ROCK_THROW",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "ROCK_SLIDE",
+      "SLUDGE_WAVE"
+    ],
+    "family": {
+      "id": "FAMILY_GLIMMET",
+      "parent": "glimmet"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31040,
+    "gender": "male"
+  },
+  "greavard": {
+    "dex": 971,
+    "speciesName": "Greavard",
+    "speciesId": "greavard",
+    "baseStats": {
+      "atk": 105,
+      "def": 106,
+      "hp": 137
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "LICK",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "DIG",
+      "PSYCHIC_FANGS"
+    ],
+    "family": {
+      "id": "FAMILY_GREAVARD",
+      "evolutions": [
+        "houndstone"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31072,
+    "gender": "male"
+  },
+  "houndstone": {
+    "dex": 972,
+    "speciesName": "Houndstone",
+    "speciesId": "houndstone",
+    "baseStats": {
+      "atk": 186,
+      "def": 195,
+      "hp": 176
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "LICK",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "DIG",
+      "PSYCHIC_FANGS"
+    ],
+    "family": {
+      "id": "FAMILY_GREAVARD",
+      "parent": "greavard"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31104,
+    "gender": "male"
+  },
+  "flamigo": {
+    "dex": 973,
+    "speciesName": "Flamigo",
+    "speciesId": "flamigo",
+    "baseStats": {
+      "atk": 227,
+      "def": 145,
+      "hp": 193
+    },
+    "types": [
+      "flying",
+      "fighting"
+    ],
+    "fastMoves": [
+      "WING_ATTACK",
+      "DOUBLE_KICK"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "CLOSE_COMBAT"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31136,
+    "gender": "male"
+  },
+  "cetoddle": {
+    "dex": 974,
+    "speciesName": "Cetoddle",
+    "speciesId": "cetoddle",
+    "baseStats": {
+      "atk": 119,
+      "def": 80,
+      "hp": 239
+    },
+    "types": [
+      "ice",
+      "none"
+    ],
+    "fastMoves": [
+      "ICE_SHARD",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "AVALANCHE",
+      "HEAVY_SLAM"
+    ],
+    "family": {
+      "id": "FAMILY_CETODDLE",
+      "evolutions": [
+        "cetitan"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31168,
+    "gender": "male"
+  },
+  "cetitan": {
+    "dex": 975,
+    "speciesName": "Cetitan",
+    "speciesId": "cetitan",
+    "baseStats": {
+      "atk": 208,
+      "def": 123,
+      "hp": 347
+    },
+    "types": [
+      "ice",
+      "none"
+    ],
+    "fastMoves": [
+      "ICE_SHARD",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "AVALANCHE",
+      "HEAVY_SLAM"
+    ],
+    "family": {
+      "id": "FAMILY_CETODDLE",
+      "parent": "cetoddle"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31200,
+    "gender": "male"
+  },
+  "veluza": {
+    "dex": 976,
+    "speciesName": "Veluza",
+    "speciesId": "veluza",
+    "baseStats": {
+      "atk": 196,
+      "def": 139,
+      "hp": 207
+    },
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "fastMoves": [
+      "ICE_FANG",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "WATER_PULSE",
+      "PSYCHIC_FANGS",
+      "DRILL_RUN",
+      "CRUNCH"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31232,
+    "gender": "male"
+  },
+  "dondozo": {
+    "dex": 977,
+    "speciesName": "Dondozo",
+    "speciesId": "dondozo",
+    "baseStats": {
+      "atk": 176,
+      "def": 178,
+      "hp": 312
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATERFALL",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "LIQUIDATION"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31264,
+    "gender": "male"
+  },
+  "tatsugiri": {
+    "dex": 978,
+    "speciesName": "Tatsugiri",
+    "speciesId": "tatsugiri",
+    "baseStats": {
+      "atk": 226,
+      "def": 166,
+      "hp": 169
+    },
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31296,
+    "gender": "male"
+  },
+  "tatsugiri_curly": {
+    "dex": 978,
+    "speciesName": "Tatsugiri_curly",
+    "speciesId": "tatsugiri_curly",
+    "baseStats": {
+      "atk": 226,
+      "def": 166,
+      "hp": 169
+    },
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "tatsugiri_droopy": {
+    "dex": 978,
+    "speciesName": "Tatsugiri_droopy",
+    "speciesId": "tatsugiri_droopy",
+    "baseStats": {
+      "atk": 226,
+      "def": 166,
+      "hp": 169
+    },
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31297,
+    "gender": "male"
+  },
+  "tatsugiri_stretchy": {
+    "dex": 978,
+    "speciesName": "Tatsugiri_stretchy",
+    "speciesId": "tatsugiri_stretchy",
+    "baseStats": {
+      "atk": 226,
+      "def": 166,
+      "hp": 169
+    },
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31298,
+    "gender": "male"
+  },
+  "annihilape": {
+    "dex": 979,
+    "speciesName": "Annihilape",
+    "speciesId": "annihilape",
+    "baseStats": {
+      "atk": 220,
+      "def": 178,
+      "hp": 242
+    },
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "fastMoves": [
+      "LOW_KICK",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "LOW_SWEEP",
+      "NIGHT_SLASH",
+      "ICE_PUNCH"
+    ],
+    "family": {
+      "id": "FAMILY_MANKEY",
+      "parent": "primeape"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31328,
+    "gender": "male"
+  },
+  "clodsire": {
+    "dex": 980,
+    "speciesName": "Clodsire",
+    "speciesId": "clodsire",
+    "baseStats": {
+      "atk": 127,
+      "def": 151,
+      "hp": 277
+    },
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "fastMoves": [
+      "POISON_JAB",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "SLUDGE_BOMB",
+      "EARTHQUAKE",
+      "STONE_EDGE",
+      "ACID_SPRAY",
+      "SURF"
+    ],
+    "family": {
+      "id": "FAMILY_WOOPER",
+      "parent": "wooper"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31360,
+    "gender": "male"
+  },
+  "farigiraf": {
+    "dex": 981,
+    "speciesName": "Farigiraf",
+    "speciesId": "farigiraf",
+    "baseStats": {
+      "atk": 209,
+      "def": 136,
+      "hp": 260
+    },
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "CONFUSION",
+      "DOUBLE_KICK"
+    ],
+    "chargedMoves": [
+      "PSYCHIC",
+      "THUNDERBOLT",
+      "MIRROR_COAT",
+      "PSYCHIC_FANGS"
+    ],
+    "family": {
+      "id": "FAMILY_GIRAFARIG",
+      "parent": "girafarig"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31392,
+    "gender": "male"
+  },
+  "dudunsparce": {
+    "dex": 982,
+    "speciesName": "Dudunsparce",
+    "speciesId": "dudunsparce",
+    "baseStats": {
+      "atk": 188,
+      "def": 150,
+      "hp": 268
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "ASTONISH",
+      "ROLLOUT"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "ROCK_SLIDE",
+      "DRILL_RUN"
+    ],
+    "family": {
+      "id": "FAMILY_DUNSPARCE",
+      "parent": "dunsparce"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31424,
+    "gender": "male"
+  },
+  "dudunsparce_three": {
+    "dex": 982,
+    "speciesName": "Dudunsparce_three",
+    "speciesId": "dudunsparce_three",
+    "baseStats": {
+      "atk": 188,
+      "def": 150,
+      "hp": 268
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "ASTONISH",
+      "ROLLOUT"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "ROCK_SLIDE",
+      "DRILL_RUN"
+    ],
+    "family": {
+      "id": "FAMILY_DUNSPARCE",
+      "parent": "dunsparce"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "dudunsparce_two": {
+    "dex": 982,
+    "speciesName": "Dudunsparce_two",
+    "speciesId": "dudunsparce_two",
+    "baseStats": {
+      "atk": 188,
+      "def": 150,
+      "hp": 268
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "ASTONISH",
+      "ROLLOUT"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "ROCK_SLIDE",
+      "DRILL_RUN"
+    ],
+    "family": {
+      "id": "FAMILY_DUNSPARCE",
+      "parent": "dunsparce"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "kingambit": {
+    "dex": 983,
+    "speciesName": "Kingambit",
+    "speciesId": "kingambit",
+    "baseStats": {
+      "atk": 238,
+      "def": 203,
+      "hp": 225
+    },
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "fastMoves": [
+      "SNARL",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "IRON_HEAD",
+      "X_SCISSOR",
+      "FOCUS_BLAST"
+    ],
+    "family": {
+      "id": "FAMILY_PAWNIARD",
+      "parent": "bisharp"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31456,
+    "gender": "male"
+  },
+  "greattusk": {
+    "dex": 984,
+    "speciesName": "Greattusk",
+    "speciesId": "greattusk",
+    "baseStats": {
+      "atk": 249,
+      "def": 209,
+      "hp": 251
+    },
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "screamtail": {
+    "dex": 985,
+    "speciesName": "Screamtail",
+    "speciesId": "screamtail",
+    "baseStats": {
+      "atk": 139,
+      "def": 234,
+      "hp": 251
+    },
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "brutebonnet": {
+    "dex": 986,
+    "speciesName": "Brutebonnet",
+    "speciesId": "brutebonnet",
+    "baseStats": {
+      "atk": 232,
+      "def": 190,
+      "hp": 244
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "fluttermane": {
+    "dex": 987,
+    "speciesName": "Fluttermane",
+    "speciesId": "fluttermane",
+    "baseStats": {
+      "atk": 280,
+      "def": 235,
+      "hp": 146
+    },
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "slitherwing": {
+    "dex": 988,
+    "speciesName": "Slitherwing",
+    "speciesId": "slitherwing",
+    "baseStats": {
+      "atk": 261,
+      "def": 193,
+      "hp": 198
+    },
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "sandyshocks": {
+    "dex": 989,
+    "speciesName": "Sandyshocks",
+    "speciesId": "sandyshocks",
+    "baseStats": {
+      "atk": 244,
+      "def": 195,
+      "hp": 198
+    },
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "irontreads": {
+    "dex": 990,
+    "speciesName": "Irontreads",
+    "speciesId": "irontreads",
+    "baseStats": {
+      "atk": 227,
+      "def": 216,
+      "hp": 207
+    },
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "ironbundle": {
+    "dex": 991,
+    "speciesName": "Ironbundle",
+    "speciesId": "ironbundle",
+    "baseStats": {
+      "atk": 266,
+      "def": 211,
+      "hp": 148
+    },
+    "types": [
+      "ice",
+      "water"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "ironhands": {
+    "dex": 992,
+    "speciesName": "Ironhands",
+    "speciesId": "ironhands",
+    "baseStats": {
+      "atk": 245,
+      "def": 177,
+      "hp": 319
+    },
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "ironjugulis": {
+    "dex": 993,
+    "speciesName": "Ironjugulis",
+    "speciesId": "ironjugulis",
+    "baseStats": {
+      "atk": 249,
+      "def": 179,
+      "hp": 214
+    },
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "ironmoth": {
+    "dex": 994,
+    "speciesName": "Ironmoth",
+    "speciesId": "ironmoth",
+    "baseStats": {
+      "atk": 281,
+      "def": 196,
+      "hp": 190
+    },
+    "types": [
+      "fire",
+      "poison"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "ironthorns": {
+    "dex": 995,
+    "speciesName": "Ironthorns",
+    "speciesId": "ironthorns",
+    "baseStats": {
+      "atk": 250,
+      "def": 200,
+      "hp": 225
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "frigibax": {
+    "dex": 996,
+    "speciesName": "Frigibax",
+    "speciesId": "frigibax",
+    "baseStats": {
+      "atk": 134,
+      "def": 86,
+      "hp": 163
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "AVALANCHE",
+      "OUTRAGE"
+    ],
+    "family": {
+      "id": "FAMILY_FRIGIBAX",
+      "evolutions": [
+        "arctibax"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31872,
+    "gender": "male"
+  },
+  "arctibax": {
+    "dex": 997,
+    "speciesName": "Arctibax",
+    "speciesId": "arctibax",
+    "baseStats": {
+      "atk": 173,
+      "def": 128,
+      "hp": 207
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "AVALANCHE",
+      "OUTRAGE"
+    ],
+    "family": {
+      "id": "FAMILY_FRIGIBAX",
+      "parent": "frigibax",
+      "evolutions": [
+        "baxcalibur"
+      ]
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31904,
+    "gender": "male"
+  },
+  "baxcalibur": {
+    "dex": 998,
+    "speciesName": "Baxcalibur",
+    "speciesId": "baxcalibur",
+    "baseStats": {
+      "atk": 254,
+      "def": 168,
+      "hp": 229
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "AVALANCHE",
+      "OUTRAGE",
+      "BLIZZARD"
+    ],
+    "family": {
+      "id": "FAMILY_FRIGIBAX",
+      "parent": "arctibax"
+    },
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 31936,
+    "gender": "male"
+  },
   "gimmighoul": {
     "dex": 999,
     "speciesName": "Gimmighoul",
@@ -101314,6 +106310,256 @@
       "parent": "gimmighoul"
     },
     "sid": 32000,
+    "gender": "male"
+  },
+  "wochien": {
+    "dex": 1001,
+    "speciesName": "Wochien",
+    "speciesId": "wochien",
+    "baseStats": {
+      "atk": 186,
+      "def": 242,
+      "hp": 198
+    },
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "chienpao": {
+    "dex": 1002,
+    "speciesName": "Chienpao",
+    "speciesId": "chienpao",
+    "baseStats": {
+      "atk": 261,
+      "def": 167,
+      "hp": 190
+    },
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "tinglu": {
+    "dex": 1003,
+    "speciesName": "Tinglu",
+    "speciesId": "tinglu",
+    "baseStats": {
+      "atk": 194,
+      "def": 203,
+      "hp": 321
+    },
+    "types": [
+      "dark",
+      "ground"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "chiyu": {
+    "dex": 1004,
+    "speciesName": "Chiyu",
+    "speciesId": "chiyu",
+    "baseStats": {
+      "atk": 269,
+      "def": 221,
+      "hp": 146
+    },
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "roaringmoon": {
+    "dex": 1005,
+    "speciesName": "Roaringmoon",
+    "speciesId": "roaringmoon",
+    "baseStats": {
+      "atk": 280,
+      "def": 196,
+      "hp": 233
+    },
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "ironvaliant": {
+    "dex": 1006,
+    "speciesName": "Ironvaliant",
+    "speciesId": "ironvaliant",
+    "baseStats": {
+      "atk": 279,
+      "def": 171,
+      "hp": 179
+    },
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "koraidon": {
+    "dex": 1007,
+    "speciesName": "Koraidon",
+    "speciesId": "koraidon",
+    "baseStats": {
+      "atk": 263,
+      "def": 223,
+      "hp": 205
+    },
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 32224,
+    "gender": "male"
+  },
+  "koraidon_apex": {
+    "dex": 1007,
+    "speciesName": "Koraidon_apex",
+    "speciesId": "koraidon_apex",
+    "baseStats": {
+      "atk": 263,
+      "def": 223,
+      "hp": 205
+    },
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
+    "gender": "male"
+  },
+  "miraidon": {
+    "dex": 1008,
+    "speciesName": "Miraidon",
+    "speciesId": "miraidon",
+    "baseStats": {
+      "atk": 263,
+      "def": 223,
+      "hp": 205
+    },
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": 32256,
+    "gender": "male"
+  },
+  "miraidon_ultimate": {
+    "dex": 1008,
+    "speciesName": "Miraidon_ultimate",
+    "speciesId": "miraidon_ultimate",
+    "baseStats": {
+      "atk": 263,
+      "def": 223,
+      "hp": 205
+    },
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "tags": [
+      "unreleased"
+    ],
+    "sid": null,
     "gender": "male"
   }
 }
