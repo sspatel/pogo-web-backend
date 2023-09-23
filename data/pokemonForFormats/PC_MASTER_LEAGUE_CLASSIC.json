@@ -25292,6 +25292,7 @@
       "mythical",
       "untradeable"
     ]
+<<<<<<< HEAD
   },
   "diancie_mega": {
     "legal": false,
@@ -25305,6 +25306,8 @@
       "untradeable",
       "mega"
     ]
+=======
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
   },
   "hoopa": {
     "legal": false,

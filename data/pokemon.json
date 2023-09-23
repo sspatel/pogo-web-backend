@@ -7598,8 +7598,12 @@
       "BLIZZARD",
       "HYDRO_PUMP",
       "ICY_WIND",
+<<<<<<< HEAD
       "LIQUIDATION",
       "RAZOR_SHELL"
+=======
+      "LIQUIDATION"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "level25CP": 1554,
     "eliteMoves": [
@@ -7638,8 +7642,12 @@
       "BLIZZARD",
       "HYDRO_PUMP",
       "ICY_WIND",
+<<<<<<< HEAD
       "LIQUIDATION",
       "RAZOR_SHELL"
+=======
+      "LIQUIDATION"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "eliteMoves": [
       "BLIZZARD"
@@ -17295,8 +17303,12 @@
     "chargedMoves": [
       "CLOSE_COMBAT",
       "GYRO_BALL",
+<<<<<<< HEAD
       "STONE_EDGE",
       "TRIPLE_AXEL"
+=======
+      "STONE_EDGE"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "searchPriority": 4,
     "family": {
@@ -40754,8 +40766,12 @@
     "fastMoves": [
       "TACKLE",
       "RAZOR_LEAF",
+<<<<<<< HEAD
       "LEAFAGE",
       "MAGICAL_LEAF"
+=======
+      "LEAFAGE"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "chargedMoves": [
       "SEED_BOMB",
@@ -40786,8 +40802,12 @@
     "fastMoves": [
       "PECK",
       "RAZOR_LEAF",
+<<<<<<< HEAD
       "LEAFAGE",
       "MAGICAL_LEAF"
+=======
+      "LEAFAGE"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "chargedMoves": [
       "SEED_BOMB",
@@ -40820,8 +40840,12 @@
     "fastMoves": [
       "ASTONISH",
       "RAZOR_LEAF",
+<<<<<<< HEAD
       "LEAFAGE",
       "MAGICAL_LEAF"
+=======
+      "LEAFAGE"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "chargedMoves": [
       "SHADOW_SNEAK",
@@ -42380,8 +42404,12 @@
       "X_SCISSOR",
       "AQUA_JET",
       "AERIAL_ACE",
+<<<<<<< HEAD
       "LIQUIDATION",
       "RAZOR_SHELL"
+=======
+      "LIQUIDATION"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "family": {
       "id": "FAMILY_WIMPOD",
@@ -47729,8 +47757,12 @@
       "THUNDER_PUNCH",
       "AERIAL_ACE",
       "HIGH_HORSEPOWER",
+<<<<<<< HEAD
       "ICE_PUNCH",
       "TRAILBLAZE"
+=======
+      "ICE_PUNCH"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
@@ -47768,8 +47800,12 @@
       "THUNDER_PUNCH",
       "AERIAL_ACE",
       "HIGH_HORSEPOWER",
+<<<<<<< HEAD
       "ICE_PUNCH",
       "TRAILBLAZE"
+=======
+      "ICE_PUNCH"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"

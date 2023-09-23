@@ -102771,8 +102771,12 @@
       "THUNDER_PUNCH",
       "AERIAL_ACE",
       "HIGH_HORSEPOWER",
+<<<<<<< HEAD
       "ICE_PUNCH",
       "TRAILBLAZE"
+=======
+      "ICE_PUNCH"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
@@ -102810,8 +102814,12 @@
       "THUNDER_PUNCH",
       "AERIAL_ACE",
       "HIGH_HORSEPOWER",
+<<<<<<< HEAD
       "ICE_PUNCH",
       "TRAILBLAZE"
+=======
+      "ICE_PUNCH"
+>>>>>>> 43a95a96f69d3224c9b5b6f236e85fc3a399e507
     ],
     "eliteMoves": [
       "HIGH_HORSEPOWER"
