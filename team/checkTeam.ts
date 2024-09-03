@@ -3,10 +3,11 @@ import { ClassOption, Rule, Selector } from "../types/rule";
 import { Pokemon, TeamMember, TeamMemberDescription, typeId, PokemonSpecies } from "../types/team";
 import { calculateCP, calculateHP, calculateAtk,calculateDef } from "../utils/calcUtils";
 import pokeData from "../data/pokemon.json";
-import moves from "../data/moves.json";
+import moves_json from "../data/moves.json";
 import mainSeriesPokeData from "../data/pokemonWithMainSeriesMoves.json";
 
 const curseWordFilter = new Filter() 
+const moves:Record<string,any> = moves_json;
 
 export function isTeamValid(team: TeamMember[], format: Rule, strings: any): {isValid: boolean, violations: string[]} {
     let violations = new Array<string>();
@@ -189,9 +190,9 @@ export function isSpeciesAllowed(pokemon: reducedPoke, format: Rule, position: n
   }
 
   // Check gender
-   if (!speciesData.gender && pokemon.gender === "N") {
+   if (speciesData?.gender && pokemon?.gender === "N") {
     violations.push(strings.team_verify_invalid_neutral_gender.replace("%1", position.toString()));
-  } else if (pokemon.gender && speciesData.gender && pokemon.gender !== speciesData.gender) {
+  } else if (pokemon?.gender && speciesData?.gender && pokemon?.gender !== speciesData?.gender) {
     const genderMap = {
       M: strings.gender_male,
       F: strings.gender_female, 
@@ -293,10 +294,11 @@ export function parseToTeamMembers (team: TeamMemberDescription[]): TeamMember[]
         hp: calculateHP(baseStats.hp, member.level, member.iv.hp)
       }
       const cp = calculateCP(baseStats, member.level, member.iv);
+      const species_name:Record<string, any> = speciesData.speciesName as any;
   
       return {
         speciesId: member.speciesId,
-        speciesName: speciesData.speciesName["en"],
+        speciesName: species_name["en"],
         hp: stats.hp,
         def: stats.def,
         atk: stats.atk,

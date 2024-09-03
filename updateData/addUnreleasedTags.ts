@@ -6,7 +6,7 @@ import { getLearnSetKey } from './util';
 let pokemonList: any = {}
 const unreleasedTag = "unreleased"
 
-const replaceMap = {
+const replaceMap:Record<string,string> = {
     "_shadow": "",
     "_alolan": "_alola",
     "_galarian": "_galar",
@@ -47,10 +47,26 @@ const replaceMap = {
     "_core": ""
 }
 
-const getSid = (speciesId: string, sids: object[]) => {
+function orderKeysAlphabetically(obj:any) {
+    // Get the keys of the object and sort them alphabetically
+    const sortedKeys = Object.keys(obj).sort();
+    
+    // Create a new object to store the sorted key-value pairs
+    const sortedObj:Record<any,any> = {};
+    
+    // Iterate over the sorted keys and populate the new object
+    for (const key of sortedKeys) {
+        sortedObj[key] = obj[key];
+    }
+    
+    return sortedObj;
+}
+
+const getSid = (speciesId: string, sids: Record<string,any>) => {
     // Apply replacements of the replacemap to the speciesId to match the strings of the integrated data
     for(const needle of Object.keys(replaceMap)) {
-        speciesId = speciesId.replace(needle, replaceMap[needle])
+        const index:string = needle
+        speciesId = speciesId.replace(needle, replaceMap[index])
     }
 
     // Search the object in the Array that matches the speciesId
@@ -73,7 +89,7 @@ const getSid = (speciesId: string, sids: object[]) => {
     return parseInt(sidReference.slice(1));
 }
 
-https.get("https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json", (res) => {
+https.get("https://raw.githubusercontent.com/pvpoke/pvpoke/new-season-2024/src/data/gamemaster.json", (res) => {
     let body = ""
     res.on("data", (data) => body += data.toString());
     res.on("end", () => {
@@ -118,8 +134,8 @@ https.get("https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamem
 
                     pokemonList[pokemon.speciesId] = pokemon
                 }
-        
-                fs.writeFileSync("data/pokemon.json", JSON.stringify(pokemonList, null, 2))
+                const sortedList = orderKeysAlphabetically(pokemonList)           
+                fs.writeFileSync("data/pokemon.json", JSON.stringify(sortedList, null, 2))
             })
         })
     })

@@ -1,4 +1,4 @@
-export const Pokedex = {
+export const Pokedex:Record<string,any> = {
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",

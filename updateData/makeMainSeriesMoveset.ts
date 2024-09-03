@@ -1,5 +1,5 @@
 import fs from "fs"
-import p from "../data/pokemon.json";
+import p from "../data/pokemon.json"  with {type: "json"};
 import { Pokedex as dex } from "../data/pokedex";
 import m from "../data/moves.json";
 import { Learnsets } from '../data/learnsets'
